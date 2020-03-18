@@ -1,5 +1,5 @@
 # COVID19PER
-Este presente proyecto tiene cómo finalidad tratar de coloborar con la difusión y el analisis espacial de los casos reportados por las respectivas autoridades en
+Este presente proyecto tiene cómo finalidad tratar de coloborar con la difusión y el análisis espacial de los casos confirmados por la presencia del **COVID-19** en los respectivos departamentos del Perú, los datos que se emplearon para elaborar el presente mapa fueron recopilados de las respectivas autoridades encargadas de la presente temática, en este caso los datos fueron tomados de los diferentes reportes que fuerón publicados en **Twitter** por el ["Ministerio de Salud"](https://twitter.com/Minsa_Peru)
 
 
 [![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)]()
@@ -7,10 +7,9 @@ Este presente proyecto tiene cómo finalidad tratar de coloborar con la difusió
 
 
 ## Atlas
-
 Vector de referencia : layer `Confirmed_COVID19PER`
 
-![](./Img/altlas.png)
+![](./Img/atlas.png)
 
 **Gif animación:**
 
