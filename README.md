@@ -1,6 +1,9 @@
 # COVID19PER
-Este presente proyecto tiene cómo finalidad tratar de coloborar con la difusión y analisis espacial 
+Este presente proyecto tiene cómo finalidad tratar de coloborar con la difusión y el analisis espacial de los casos reportados por las respectivas autoridades en
 
+
+[![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)]()
+[![GitHub commit](https://img.shields.io/github/last-commit/pcm-dpc/COVID-19)](https://github.com/barja8/COVID19PER/commits/master)
 
 
 ## Atlas
