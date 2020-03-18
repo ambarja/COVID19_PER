@@ -18,11 +18,10 @@ Vector de referencia : layer `Confirmed_COVID19PER`
 ## Referencias utilizadas:
 - **QGIS** : <https://qgis.org/it/site/>
 - **Plugin DataPlotly** : <https://plugins.qgis.org/plugins/DataPlotly/>
-- **Ministerio de Salud (Minsa)** : <https://github.com/pcm-dpc/COVID-19>
+- **Ministerio de Salud (Minsa)** : <https://twitter.com/Minsa_Peru>
 - **Salvatore Fiandaca (pigreco)**: <https://github.com/pigreco/COVID-19_ITA>
 
-
-
+![](./Imgs/istat88x31.png)Todos los datos producidos en el presente proyecto se publican bajo [licencia Creative Commons (CC BY 3.0 IT)] (https://creativecommons.org/share-your-work/): Es posible reproducir, distribuir, transmitir y adaptar libremente datos,  también con fines comerciales, siempre que se cite la **fuente**.
 
 
 
