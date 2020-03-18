@@ -1,5 +1,5 @@
 # COVID19PER
-Este presente proyecto tiene cómo finalidad tratar de coloborar con la difusión y el análisis espacial de los casos confirmados por la presencia del **COVID-19** en los respectivos departamentos del Perú, los datos que se emplearon para elaborar el presente mapa fueron recopilados de las respectivas autoridades encargadas de la presente temática, en este caso los datos fueron tomados de los diferentes reportes que fuerón publicados en **Twitter** por el ["Ministerio de Salud"](https://twitter.com/Minsa_Peru)
+Este presente proyecto tiene cómo finalidad tratar de coloborar con la difusión y el análisis espacial de los casos confirmados por la presencia del **COVID-19** en los respectivos departamentos del Perú, los datos que se emplearon para elaborar el presente mapa fueron recopilados de las respectivas autoridades encargadas de la presente temática, en este caso los datos fueron tomados de los diferentes reportes que fuerón publicados en **Twitter** por el ["Ministerio de Salud"](https://twitter.com/Minsa_Peru).
 
 
 [![GitHub license](https://img.shields.io/badge/License-Creative%20Commons%20Attribution%204.0%20International-blue)]()
