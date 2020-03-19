@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.12.0-București" saveUser="antony" saveUserFull="antony" projectname="">
+<qgis version="3.12.0-București" saveUser="antony" projectname="" saveUserFull="antony">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -20,20 +20,20 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer source="./layers/COVID19_PER.csv" expanded="1" id="COVID19_PER_d179c159_4f48_472c_aef1_c22b01da51e5" providerKey="ogr" checked="Qt::Checked" name="COVID19_PER">
+    <layer-tree-layer name="COVID19_PER" source="./layers/COVID19_PER.csv" id="COVID19_PER_d179c159_4f48_472c_aef1_c22b01da51e5" providerKey="ogr" expanded="1" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer source="./layers/Confirmed_COVID19PER.gpkg" expanded="1" id="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" providerKey="ogr" checked="Qt::Unchecked" name="Confirmed_COVID19PER">
+    <layer-tree-layer name="Confirmed_COVID19PER" source="./layers/Confirmed_COVID19PER.gpkg" id="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" providerKey="ogr" expanded="1" checked="Qt::Unchecked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer source="./layers/Focus.gpkg" expanded="1" id="Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059" providerKey="ogr" checked="Qt::Checked" name="Focus">
+    <layer-tree-layer name="Focus" source="./layers/Focus.gpkg" id="Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059" providerKey="ogr" expanded="1" checked="Qt::Checked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer source="./layers/DEPARTAMENTO.gpkg" expanded="1" id="Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2" providerKey="ogr" checked="Qt::Checked" name="DEPARTAMENTO">
+    <layer-tree-layer name="DEPARTAMENTO" source="./layers/DEPARTAMENTO.gpkg" id="Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2" providerKey="ogr" expanded="1" checked="Qt::Checked">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -44,15 +44,15 @@
       <item>Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings tolerance="12" enabled="0" type="1" intersection-snapping="0" mode="2" unit="1">
+  <snapping-settings enabled="0" type="1" mode="2" unit="1" intersection-snapping="0" tolerance="12">
     <individual-layer-settings>
-      <layer-setting tolerance="12" enabled="0" type="1" id="Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2" units="1"/>
-      <layer-setting tolerance="12" enabled="0" type="1" id="Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059" units="1"/>
-      <layer-setting tolerance="12" enabled="0" type="1" id="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" units="1"/>
+      <layer-setting enabled="0" type="1" id="Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059" units="1" tolerance="12"/>
+      <layer-setting enabled="0" type="1" id="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" units="1" tolerance="12"/>
+      <layer-setting enabled="0" type="1" id="Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2" units="1" tolerance="12"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
-  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>unknown</units>
     <extent>
       <xmin>-81.64512927464994618</xmin>
@@ -153,31 +153,31 @@
   </DataPlotly>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" name="COVID19_PER">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="COVID19_PER_d179c159_4f48_472c_aef1_c22b01da51e5" visible="1" isInOverview="0"/>
+    <legendlayer name="COVID19_PER" showFeatureCount="0" checked="Qt::Checked" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="COVID19_PER_d179c159_4f48_472c_aef1_c22b01da51e5" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Unchecked" name="Confirmed_COVID19PER">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" visible="0" isInOverview="0"/>
+    <legendlayer name="Confirmed_COVID19PER" showFeatureCount="0" checked="Qt::Unchecked" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" isInOverview="0" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" name="Focus">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059" visible="1" isInOverview="0"/>
+    <legendlayer name="Focus" showFeatureCount="0" checked="Qt::Checked" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" name="DEPARTAMENTO">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile layerid="Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2" visible="1" isInOverview="0"/>
+    <legendlayer name="DEPARTAMENTO" showFeatureCount="0" checked="Qt::Checked" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2" isInOverview="0" visible="1"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer refreshOnNotifyMessage="" refreshOnNotifyEnabled="0" autoRefreshTime="0" wkbType="NoGeometry" autoRefreshEnabled="0" type="vector" readOnly="0" geometry="No geometry" maxScale="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" minScale="1e+08">
+    <maplayer refreshOnNotifyEnabled="0" autoRefreshTime="0" refreshOnNotifyMessage="" minScale="1e+08" type="vector" geometry="No geometry" maxScale="0" readOnly="0" hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" wkbType="NoGeometry" styleCategories="AllStyleCategories">
       <id>COVID19_PER_d179c159_4f48_472c_aef1_c22b01da51e5</id>
       <datasource>./layers/COVID19_PER.csv</datasource>
       <keywordList>
@@ -194,7 +194,7 @@
           <description></description>
           <projectionacronym></projectionacronym>
           <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>true</geographicflag>
+          <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -217,7 +217,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -238,7 +238,7 @@
         <Searchable>1</Searchable>
       </flags>
       <customproperties>
-        <property key="dualview/previewExpressions" value="&quot;Fecha&quot;"/>
+        <property value="&quot;Fecha&quot;" key="dualview/previewExpressions"/>
       </customproperties>
       <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
         <activeChecks type="StringList">
@@ -279,41 +279,41 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="Fecha" index="0" name=""/>
-        <alias field="Confirmed" index="1" name=""/>
-        <alias field="Discarded" index="2" name=""/>
-        <alias field="Accumuled" index="3" name=""/>
+        <alias name="" field="Fecha" index="0"/>
+        <alias name="" field="Confirmed" index="1"/>
+        <alias name="" field="Discarded" index="2"/>
+        <alias name="" field="Accumuled" index="3"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="Fecha"/>
-        <default expression="" applyOnUpdate="0" field="Confirmed"/>
-        <default expression="" applyOnUpdate="0" field="Discarded"/>
-        <default expression="" applyOnUpdate="0" field="Accumuled"/>
+        <default applyOnUpdate="0" field="Fecha" expression=""/>
+        <default applyOnUpdate="0" field="Confirmed" expression=""/>
+        <default applyOnUpdate="0" field="Discarded" expression=""/>
+        <default applyOnUpdate="0" field="Accumuled" expression=""/>
       </defaults>
       <constraints>
-        <constraint constraints="0" field="Fecha" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="Confirmed" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="Discarded" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="Accumuled" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint exp_strength="0" field="Fecha" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="Confirmed" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="Discarded" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="Accumuled" unique_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="Fecha" desc="" exp=""/>
-        <constraint field="Confirmed" desc="" exp=""/>
-        <constraint field="Discarded" desc="" exp=""/>
-        <constraint field="Accumuled" desc="" exp=""/>
+        <constraint desc="" field="Fecha" exp=""/>
+        <constraint desc="" field="Confirmed" exp=""/>
+        <constraint desc="" field="Discarded" exp=""/>
+        <constraint desc="" field="Accumuled" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;Fecha&quot;" sortOrder="1">
+      <attributetableconfig sortExpression="&quot;Fecha&quot;" actionWidgetStyle="dropDown" sortOrder="1">
         <columns>
-          <column type="field" hidden="0" width="-1" name="Fecha"/>
-          <column type="field" hidden="0" width="-1" name="Confirmed"/>
-          <column type="field" hidden="0" width="-1" name="Discarded"/>
-          <column type="field" hidden="0" width="-1" name="Accumuled"/>
+          <column type="field" name="Fecha" hidden="0" width="-1"/>
+          <column type="field" name="Confirmed" hidden="0" width="-1"/>
+          <column type="field" name="Discarded" hidden="0" width="-1"/>
+          <column type="field" name="Accumuled" hidden="0" width="-1"/>
           <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
@@ -335,7 +335,7 @@
       <previewExpression>"Fecha"</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer simplifyDrawingTol="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyLocal="1" wkbType="MultiPolygon" geometry="Polygon" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" readOnly="0" hasScaleBasedVisibilityFlag="0" maxScale="0" type="vector" simplifyDrawingHints="1" minScale="100000000" labelsEnabled="0" autoRefreshEnabled="0">
+    <maplayer simplifyDrawingTol="1" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" minScale="100000000" labelsEnabled="0" type="vector" refreshOnNotifyEnabled="0" autoRefreshTime="0" maxScale="0" wkbType="MultiPolygon" simplifyAlgorithm="0" geometry="Polygon" simplifyLocal="1" autoRefreshEnabled="0" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
       <extent>
         <xmin>-81.32819999999999538</xmin>
         <ymin>-18.35089999999999932</ymin>
@@ -381,7 +381,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -401,21 +401,21 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" type="singleSymbol" symbollevels="0" enableorderby="0">
+      <renderer-v2 type="singleSymbol" enableorderby="0" forceraster="0" symbollevels="0">
         <symbols>
-          <symbol type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="210,210,210,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="255,255,255,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol type="fill" name="0" alpha="1" force_rhr="0" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="210,210,210,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="255,255,255,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -500,52 +500,52 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="fid" index="0" name=""/>
-        <alias field="NOMBDEP" index="1" name=""/>
-        <alias field="AREA_KM²" index="2" name=""/>
-        <alias field="FEC_ACT" index="3" name=""/>
-        <alias field="FUENTE" index="4" name=""/>
-        <alias field="Population" index="5" name=""/>
-        <alias field="REGION" index="6" name=""/>
-        <alias field="CONFIRMED" index="7" name=""/>
+        <alias name="" field="fid" index="0"/>
+        <alias name="" field="NOMBDEP" index="1"/>
+        <alias name="" field="AREA_KM²" index="2"/>
+        <alias name="" field="FEC_ACT" index="3"/>
+        <alias name="" field="FUENTE" index="4"/>
+        <alias name="" field="Population" index="5"/>
+        <alias name="" field="REGION" index="6"/>
+        <alias name="" field="CONFIRMED" index="7"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="fid"/>
-        <default expression="" applyOnUpdate="0" field="NOMBDEP"/>
-        <default expression="" applyOnUpdate="0" field="AREA_KM²"/>
-        <default expression="" applyOnUpdate="0" field="FEC_ACT"/>
-        <default expression="" applyOnUpdate="0" field="FUENTE"/>
-        <default expression="" applyOnUpdate="0" field="Population"/>
-        <default expression="" applyOnUpdate="0" field="REGION"/>
-        <default expression="" applyOnUpdate="0" field="CONFIRMED"/>
+        <default applyOnUpdate="0" field="fid" expression=""/>
+        <default applyOnUpdate="0" field="NOMBDEP" expression=""/>
+        <default applyOnUpdate="0" field="AREA_KM²" expression=""/>
+        <default applyOnUpdate="0" field="FEC_ACT" expression=""/>
+        <default applyOnUpdate="0" field="FUENTE" expression=""/>
+        <default applyOnUpdate="0" field="Population" expression=""/>
+        <default applyOnUpdate="0" field="REGION" expression=""/>
+        <default applyOnUpdate="0" field="CONFIRMED" expression=""/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="fid" notnull_strength="1" unique_strength="1" exp_strength="0"/>
-        <constraint constraints="0" field="NOMBDEP" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="AREA_KM²" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="FEC_ACT" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="FUENTE" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="Population" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="REGION" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="CONFIRMED" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint exp_strength="0" field="fid" unique_strength="1" notnull_strength="1" constraints="3"/>
+        <constraint exp_strength="0" field="NOMBDEP" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="AREA_KM²" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="FEC_ACT" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="FUENTE" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="Population" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="REGION" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="CONFIRMED" unique_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="fid" desc="" exp=""/>
-        <constraint field="NOMBDEP" desc="" exp=""/>
-        <constraint field="AREA_KM²" desc="" exp=""/>
-        <constraint field="FEC_ACT" desc="" exp=""/>
-        <constraint field="FUENTE" desc="" exp=""/>
-        <constraint field="Population" desc="" exp=""/>
-        <constraint field="REGION" desc="" exp=""/>
-        <constraint field="CONFIRMED" desc="" exp=""/>
+        <constraint desc="" field="fid" exp=""/>
+        <constraint desc="" field="NOMBDEP" exp=""/>
+        <constraint desc="" field="AREA_KM²" exp=""/>
+        <constraint desc="" field="FEC_ACT" exp=""/>
+        <constraint desc="" field="FUENTE" exp=""/>
+        <constraint desc="" field="Population" exp=""/>
+        <constraint desc="" field="REGION" exp=""/>
+        <constraint desc="" field="CONFIRMED" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -566,7 +566,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer simplifyDrawingTol="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyLocal="1" wkbType="MultiPolygon" geometry="Polygon" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" readOnly="0" hasScaleBasedVisibilityFlag="0" maxScale="0" type="vector" simplifyDrawingHints="1" minScale="100000000" labelsEnabled="0" autoRefreshEnabled="0">
+    <maplayer simplifyDrawingTol="1" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" minScale="100000000" labelsEnabled="0" type="vector" refreshOnNotifyEnabled="0" autoRefreshTime="0" maxScale="0" wkbType="MultiPolygon" simplifyAlgorithm="0" geometry="Polygon" simplifyLocal="1" autoRefreshEnabled="0" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
       <extent>
         <xmin>-81.32819999999999538</xmin>
         <ymin>-18.35089999999999932</ymin>
@@ -612,7 +612,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -632,94 +632,94 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" type="RuleRenderer" symbollevels="0" enableorderby="0">
+      <renderer-v2 type="RuleRenderer" enableorderby="0" forceraster="0" symbollevels="0">
         <rules key="{2902167f-1e11-4c99-a64d-7478090b7c02}">
           <rule filter=" &quot;NOMBDEP&quot; = @atlas_pagename" symbol="0" key="{21b4a99c-5088-4d79-a1cb-91b3d91e6056}" label="COVID19"/>
         </rules>
         <symbols>
-          <symbol type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="232,243,247,0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.86"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-              <effect enabled="0" type="effectStack">
+          <symbol type="fill" name="0" alpha="1" force_rhr="0" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="232,243,247,0" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.86" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <effect type="effectStack" enabled="0">
                 <effect type="dropShadow">
-                  <prop k="blend_mode" v="13"/>
-                  <prop k="blur_level" v="2.645"/>
-                  <prop k="blur_unit" v="MM"/>
-                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="color" v="0,0,0,255"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="1"/>
-                  <prop k="offset_angle" v="135"/>
-                  <prop k="offset_distance" v="2"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="opacity" v="1"/>
+                  <prop v="13" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,0,255" k="color"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="1" k="enabled"/>
+                  <prop v="135" k="offset_angle"/>
+                  <prop v="2" k="offset_distance"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                  <prop v="1" k="opacity"/>
                 </effect>
                 <effect type="outerGlow">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="blur_level" v="2.645"/>
-                  <prop k="blur_unit" v="MM"/>
-                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="color1" v="0,0,255,255"/>
-                  <prop k="color2" v="0,255,0,255"/>
-                  <prop k="color_type" v="0"/>
-                  <prop k="discrete" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="opacity" v="0.5"/>
-                  <prop k="rampType" v="gradient"/>
-                  <prop k="single_color" v="255,255,255,255"/>
-                  <prop k="spread" v="2"/>
-                  <prop k="spread_unit" v="MM"/>
-                  <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,255,255" k="color1"/>
+                  <prop v="0,255,0,255" k="color2"/>
+                  <prop v="0" k="color_type"/>
+                  <prop v="0" k="discrete"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="0.5" k="opacity"/>
+                  <prop v="gradient" k="rampType"/>
+                  <prop v="255,255,255,255" k="single_color"/>
+                  <prop v="2" k="spread"/>
+                  <prop v="MM" k="spread_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
                 </effect>
                 <effect type="drawSource">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="1"/>
-                  <prop k="opacity" v="1"/>
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="1" k="enabled"/>
+                  <prop v="1" k="opacity"/>
                 </effect>
                 <effect type="innerShadow">
-                  <prop k="blend_mode" v="13"/>
-                  <prop k="blur_level" v="2.645"/>
-                  <prop k="blur_unit" v="MM"/>
-                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="color" v="0,0,0,255"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="offset_angle" v="135"/>
-                  <prop k="offset_distance" v="2"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="opacity" v="1"/>
+                  <prop v="13" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,0,255" k="color"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="135" k="offset_angle"/>
+                  <prop v="2" k="offset_distance"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                  <prop v="1" k="opacity"/>
                 </effect>
                 <effect type="innerGlow">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="blur_level" v="2.645"/>
-                  <prop k="blur_unit" v="MM"/>
-                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="color1" v="0,0,255,255"/>
-                  <prop k="color2" v="0,255,0,255"/>
-                  <prop k="color_type" v="0"/>
-                  <prop k="discrete" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="opacity" v="0.5"/>
-                  <prop k="rampType" v="gradient"/>
-                  <prop k="single_color" v="255,255,255,255"/>
-                  <prop k="spread" v="2"/>
-                  <prop k="spread_unit" v="MM"/>
-                  <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,255,255" k="color1"/>
+                  <prop v="0,255,0,255" k="color2"/>
+                  <prop v="0" k="color_type"/>
+                  <prop v="0" k="discrete"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="0.5" k="opacity"/>
+                  <prop v="gradient" k="rampType"/>
+                  <prop v="255,255,255,255" k="single_color"/>
+                  <prop v="2" k="spread"/>
+                  <prop v="MM" k="spread_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
                 </effect>
               </effect>
               <data_defined_properties>
@@ -735,30 +735,30 @@
       </renderer-v2>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style fontStrikeout="0" textOpacity="1" fontFamily="Fira Code" fieldName="CONFIRMED" fontSize="25" fontSizeUnit="Point" textOrientation="horizontal" fontWeight="75" blendMode="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontKerning="1" isExpression="0" fontUnderline="0" useSubstitutions="0" fontCapitals="0" fontWordSpacing="0" multilineHeight="1" fontLetterSpacing="0" textColor="0,0,0,255" fontItalic="0" namedStyle="Bold" previewBkgrdColor="255,255,255,255">
-            <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferDraw="1" bufferSize="2.100000000000001" bufferSizeUnits="MM" bufferNoFill="1" bufferOpacity="1" bufferColor="255,255,255,255" bufferJoinStyle="128"/>
-            <text-mask maskSizeUnits="MM" maskSize="1.5" maskedSymbolLayers="" maskEnabled="1" maskOpacity="1" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskJoinStyle="128" maskType="0"/>
-            <background shapeType="0" shapeFillColor="255,255,255,255" shapeSizeUnit="MM" shapeOpacity="1" shapeRotationType="0" shapeBlendMode="0" shapeSizeX="0" shapeRadiiY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeY="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetX="0" shapeBorderWidthUnit="MM" shapeRadiiUnit="MM" shapeOffsetY="0" shapeRotation="0" shapeJoinStyle="64" shapeSizeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeBorderWidth="0" shapeDraw="0" shapeOffsetUnit="MM" shapeSVGFile="">
-              <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="markerSymbol">
-                <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="133,182,111,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="circle"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="35,35,35,255"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
-                  <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
+          <text-style textColor="0,0,0,255" multilineHeight="1" fontItalic="0" fontUnderline="0" previewBkgrdColor="255,255,255,255" fontWeight="75" fontLetterSpacing="0" namedStyle="Bold" textOrientation="horizontal" useSubstitutions="0" textOpacity="1" fontKerning="1" fontSizeUnit="Point" fontSizeMapUnitScale="3x:0,0,0,0,0,0" isExpression="0" fieldName="CONFIRMED" fontFamily="Fira Code" fontWordSpacing="0" fontStrikeout="0" fontSize="25" blendMode="0" fontCapitals="0">
+            <text-buffer bufferDraw="1" bufferJoinStyle="128" bufferBlendMode="0" bufferSize="2.100000000000001" bufferNoFill="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferColor="255,255,255,255" bufferOpacity="1"/>
+            <text-mask maskEnabled="1" maskedSymbolLayers="" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskType="0" maskSizeUnits="MM" maskSize="1.5" maskJoinStyle="128" maskOpacity="1"/>
+            <background shapeSVGFile="" shapeBorderWidthUnit="MM" shapeSizeType="0" shapeSizeY="0" shapeOffsetX="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRadiiUnit="MM" shapeSizeX="0" shapeRadiiY="0" shapeDraw="0" shapeFillColor="255,255,255,255" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeOffsetY="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeBlendMode="0" shapeOpacity="1" shapeOffsetUnit="MM" shapeRotation="0" shapeSizeUnit="MM" shapeType="0">
+              <symbol type="marker" name="markerSymbol" alpha="1" force_rhr="0" clip_to_extent="1">
+                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+                  <prop v="0" k="angle"/>
+                  <prop v="133,182,111,255" k="color"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="circle" k="name"/>
+                  <prop v="0,0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="35,35,35,255" k="outline_color"/>
+                  <prop v="solid" k="outline_style"/>
+                  <prop v="0" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="diameter" k="scale_method"/>
+                  <prop v="2" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="MM" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
                   <data_defined_properties>
                     <Option type="Map">
                       <Option type="QString" value="" name="name"/>
@@ -769,7 +769,7 @@
                 </layer>
               </symbol>
             </background>
-            <shadow shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowBlendMode="6" shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowUnder="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowOpacity="0.7" shadowColor="0,0,0,255" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowOffsetDist="1" shadowRadiusAlphaOnly="0" shadowScale="100" shadowDraw="0"/>
+            <shadow shadowOffsetAngle="135" shadowOffsetUnit="MM" shadowOpacity="0.7" shadowDraw="0" shadowBlendMode="6" shadowUnder="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowScale="100" shadowOffsetGlobal="1" shadowOffsetDist="1" shadowRadius="1.5" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowColor="0,0,0,255"/>
             <dd_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -779,9 +779,9 @@
             </dd_properties>
             <substitutions/>
           </text-style>
-          <text-format placeDirectionSymbol="0" autoWrapLength="0" multilineAlign="0" reverseDirectionSymbol="0" plussign="0" wrapChar="" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" rightDirectionSymbol=">" useMaxLineLengthForAutoWrap="1" decimals="3"/>
-          <placement priority="5" overrunDistanceUnit="MM" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" rotationAngle="0" centroidInside="0" quadOffset="4" placementFlags="10" overrunDistance="0" geometryGeneratorEnabled="0" geometryGenerator="" geometryGeneratorType="PointGeometry" maxCurvedCharAngleOut="-25" offsetUnits="MM" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" repeatDistanceUnits="MM" distUnits="MM" maxCurvedCharAngleIn="25" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" repeatDistance="0" yOffset="0" layerType="PolygonGeometry" offsetType="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" xOffset="0" placement="1" preserveRotation="1" dist="0" fitInPolygonOnly="0" distMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0"/>
-          <rendering scaleMin="0" fontMinPixelSize="3" scaleVisibility="0" scaleMax="0" fontLimitPixelSize="0" maxNumLabels="2000" obstacleType="1" minFeatureSize="0" displayAll="0" upsidedownLabels="0" zIndex="0" mergeLines="0" drawLabels="1" limitNumLabels="0" fontMaxPixelSize="10000" obstacle="1" obstacleFactor="1" labelPerPart="0"/>
+          <text-format addDirectionSymbol="0" formatNumbers="0" decimals="3" leftDirectionSymbol="&lt;" reverseDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" multilineAlign="0" wrapChar="" placeDirectionSymbol="0" autoWrapLength="0" rightDirectionSymbol=">" plussign="0"/>
+          <placement fitInPolygonOnly="0" placement="1" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" xOffset="0" repeatDistance="0" repeatDistanceUnits="MM" offsetType="0" layerType="PolygonGeometry" rotationAngle="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" yOffset="0" centroidInside="0" dist="0" preserveRotation="1" maxCurvedCharAngleOut="-25" overrunDistanceUnit="MM" geometryGeneratorEnabled="0" priority="5" overrunDistance="0" geometryGeneratorType="PointGeometry" centroidWhole="0" distUnits="MM" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" geometryGenerator="" distMapUnitScale="3x:0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" placementFlags="10" offsetUnits="MM" quadOffset="4" maxCurvedCharAngleIn="25"/>
+          <rendering labelPerPart="0" obstacleType="1" zIndex="0" drawLabels="1" scaleMax="0" fontLimitPixelSize="0" minFeatureSize="0" scaleVisibility="0" fontMinPixelSize="3" obstacle="1" fontMaxPixelSize="10000" mergeLines="0" maxNumLabels="2000" scaleMin="0" upsidedownLabels="0" obstacleFactor="1" limitNumLabels="0" displayAll="0"/>
           <dd_properties>
             <Option type="Map">
               <Option type="QString" value="" name="name"/>
@@ -799,7 +799,7 @@
               </Option>
               <Option type="bool" value="false" name="drawToAllParts"/>
               <Option type="QString" value="0" name="enabled"/>
-              <Option type="QString" value="&lt;symbol type=&quot;line&quot; alpha=&quot;1&quot; clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot; name=&quot;symbol&quot;>&lt;layer enabled=&quot;1&quot; class=&quot;SimpleLine&quot; pass=&quot;0&quot; locked=&quot;0&quot;>&lt;prop k=&quot;capstyle&quot; v=&quot;square&quot;/>&lt;prop k=&quot;customdash&quot; v=&quot;5;2&quot;/>&lt;prop k=&quot;customdash_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;customdash_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;draw_inside_polygon&quot; v=&quot;0&quot;/>&lt;prop k=&quot;joinstyle&quot; v=&quot;bevel&quot;/>&lt;prop k=&quot;line_color&quot; v=&quot;60,60,60,255&quot;/>&lt;prop k=&quot;line_style&quot; v=&quot;solid&quot;/>&lt;prop k=&quot;line_width&quot; v=&quot;0.3&quot;/>&lt;prop k=&quot;line_width_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;offset&quot; v=&quot;0&quot;/>&lt;prop k=&quot;offset_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;offset_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;ring_filter&quot; v=&quot;0&quot;/>&lt;prop k=&quot;use_custom_dash&quot; v=&quot;0&quot;/>&lt;prop k=&quot;width_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
+              <Option type="QString" value="&lt;symbol type=&quot;line&quot; name=&quot;symbol&quot; alpha=&quot;1&quot; force_rhr=&quot;0&quot; clip_to_extent=&quot;1&quot;>&lt;layer enabled=&quot;1&quot; locked=&quot;0&quot; pass=&quot;0&quot; class=&quot;SimpleLine&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
               <Option type="double" value="0" name="minLength"/>
               <Option type="QString" value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale"/>
               <Option type="QString" value="MM" name="minLengthUnit"/>
@@ -884,52 +884,52 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="fid" index="0" name=""/>
-        <alias field="NOMBDEP" index="1" name=""/>
-        <alias field="AREA_KM²" index="2" name=""/>
-        <alias field="FEC_ACT" index="3" name=""/>
-        <alias field="FUENTE" index="4" name=""/>
-        <alias field="Population" index="5" name=""/>
-        <alias field="REGION" index="6" name=""/>
-        <alias field="CONFIRMED" index="7" name=""/>
+        <alias name="" field="fid" index="0"/>
+        <alias name="" field="NOMBDEP" index="1"/>
+        <alias name="" field="AREA_KM²" index="2"/>
+        <alias name="" field="FEC_ACT" index="3"/>
+        <alias name="" field="FUENTE" index="4"/>
+        <alias name="" field="Population" index="5"/>
+        <alias name="" field="REGION" index="6"/>
+        <alias name="" field="CONFIRMED" index="7"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="fid"/>
-        <default expression="" applyOnUpdate="0" field="NOMBDEP"/>
-        <default expression="" applyOnUpdate="0" field="AREA_KM²"/>
-        <default expression="" applyOnUpdate="0" field="FEC_ACT"/>
-        <default expression="" applyOnUpdate="0" field="FUENTE"/>
-        <default expression="" applyOnUpdate="0" field="Population"/>
-        <default expression="" applyOnUpdate="0" field="REGION"/>
-        <default expression="" applyOnUpdate="0" field="CONFIRMED"/>
+        <default applyOnUpdate="0" field="fid" expression=""/>
+        <default applyOnUpdate="0" field="NOMBDEP" expression=""/>
+        <default applyOnUpdate="0" field="AREA_KM²" expression=""/>
+        <default applyOnUpdate="0" field="FEC_ACT" expression=""/>
+        <default applyOnUpdate="0" field="FUENTE" expression=""/>
+        <default applyOnUpdate="0" field="Population" expression=""/>
+        <default applyOnUpdate="0" field="REGION" expression=""/>
+        <default applyOnUpdate="0" field="CONFIRMED" expression=""/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="fid" notnull_strength="1" unique_strength="1" exp_strength="0"/>
-        <constraint constraints="0" field="NOMBDEP" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="AREA_KM²" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="FEC_ACT" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="FUENTE" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="Population" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="REGION" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="CONFIRMED" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint exp_strength="0" field="fid" unique_strength="1" notnull_strength="1" constraints="3"/>
+        <constraint exp_strength="0" field="NOMBDEP" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="AREA_KM²" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="FEC_ACT" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="FUENTE" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="Population" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="REGION" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="CONFIRMED" unique_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="fid" desc="" exp=""/>
-        <constraint field="NOMBDEP" desc="" exp=""/>
-        <constraint field="AREA_KM²" desc="" exp=""/>
-        <constraint field="FEC_ACT" desc="" exp=""/>
-        <constraint field="FUENTE" desc="" exp=""/>
-        <constraint field="Population" desc="" exp=""/>
-        <constraint field="REGION" desc="" exp=""/>
-        <constraint field="CONFIRMED" desc="" exp=""/>
+        <constraint desc="" field="fid" exp=""/>
+        <constraint desc="" field="NOMBDEP" exp=""/>
+        <constraint desc="" field="AREA_KM²" exp=""/>
+        <constraint desc="" field="FEC_ACT" exp=""/>
+        <constraint desc="" field="FUENTE" exp=""/>
+        <constraint desc="" field="Population" exp=""/>
+        <constraint desc="" field="REGION" exp=""/>
+        <constraint desc="" field="CONFIRMED" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -950,7 +950,7 @@
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer simplifyDrawingTol="1" styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyMessage="" simplifyLocal="1" wkbType="MultiPolygon" geometry="Polygon" refreshOnNotifyEnabled="0" simplifyAlgorithm="0" readOnly="0" hasScaleBasedVisibilityFlag="0" maxScale="0" type="vector" simplifyDrawingHints="1" minScale="100000000" labelsEnabled="1" autoRefreshEnabled="0">
+    <maplayer simplifyDrawingTol="1" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" minScale="100000000" labelsEnabled="1" type="vector" refreshOnNotifyEnabled="0" autoRefreshTime="0" maxScale="0" wkbType="MultiPolygon" simplifyAlgorithm="0" geometry="Polygon" simplifyLocal="1" autoRefreshEnabled="0" simplifyMaxScale="1" simplifyDrawingHints="1" readOnly="0">
       <extent>
         <xmin>-81.32819999999999538</xmin>
         <ymin>-18.35089999999999932</ymin>
@@ -996,7 +996,7 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent/>
@@ -1016,24 +1016,24 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 forceraster="0" type="RuleRenderer" symbollevels="0" enableorderby="0">
+      <renderer-v2 type="RuleRenderer" enableorderby="0" forceraster="0" symbollevels="0">
         <rules key="{2902167f-1e11-4c99-a64d-7478090b7c02}">
           <rule filter=" &quot;NOMBDEP&quot; = @atlas_pagename" symbol="0" key="{21b4a99c-5088-4d79-a1cb-91b3d91e6056}" label="COVID19"/>
         </rules>
         <symbols>
-          <symbol type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="0">
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="213,180,60,0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol type="fill" name="0" alpha="1" force_rhr="0" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="213,180,60,0" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -1042,88 +1042,88 @@
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="0,0,255,255"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="solid"/>
-              <prop k="outline_width" v="0.66"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
-              <effect enabled="1" type="effectStack">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="0,0,255,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.66" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <effect type="effectStack" enabled="1">
                 <effect type="dropShadow">
-                  <prop k="blend_mode" v="13"/>
-                  <prop k="blur_level" v="2.645"/>
-                  <prop k="blur_unit" v="MM"/>
-                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="color" v="0,0,0,255"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="1"/>
-                  <prop k="offset_angle" v="135"/>
-                  <prop k="offset_distance" v="2"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="opacity" v="1"/>
+                  <prop v="13" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,0,255" k="color"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="1" k="enabled"/>
+                  <prop v="135" k="offset_angle"/>
+                  <prop v="2" k="offset_distance"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                  <prop v="1" k="opacity"/>
                 </effect>
                 <effect type="outerGlow">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="blur_level" v="2.645"/>
-                  <prop k="blur_unit" v="MM"/>
-                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="color1" v="0,0,255,255"/>
-                  <prop k="color2" v="0,255,0,255"/>
-                  <prop k="color_type" v="0"/>
-                  <prop k="discrete" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="opacity" v="0.5"/>
-                  <prop k="rampType" v="gradient"/>
-                  <prop k="single_color" v="255,255,255,255"/>
-                  <prop k="spread" v="2"/>
-                  <prop k="spread_unit" v="MM"/>
-                  <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,255,255" k="color1"/>
+                  <prop v="0,255,0,255" k="color2"/>
+                  <prop v="0" k="color_type"/>
+                  <prop v="0" k="discrete"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="0.5" k="opacity"/>
+                  <prop v="gradient" k="rampType"/>
+                  <prop v="255,255,255,255" k="single_color"/>
+                  <prop v="2" k="spread"/>
+                  <prop v="MM" k="spread_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
                 </effect>
                 <effect type="drawSource">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="1"/>
-                  <prop k="opacity" v="1"/>
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="1" k="enabled"/>
+                  <prop v="1" k="opacity"/>
                 </effect>
                 <effect type="innerShadow">
-                  <prop k="blend_mode" v="13"/>
-                  <prop k="blur_level" v="2.645"/>
-                  <prop k="blur_unit" v="MM"/>
-                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="color" v="0,0,0,255"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="offset_angle" v="135"/>
-                  <prop k="offset_distance" v="2"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="offset_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="opacity" v="1"/>
+                  <prop v="13" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,0,255" k="color"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="135" k="offset_angle"/>
+                  <prop v="2" k="offset_distance"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_unit_scale"/>
+                  <prop v="1" k="opacity"/>
                 </effect>
                 <effect type="innerGlow">
-                  <prop k="blend_mode" v="0"/>
-                  <prop k="blur_level" v="2.645"/>
-                  <prop k="blur_unit" v="MM"/>
-                  <prop k="blur_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="color1" v="0,0,255,255"/>
-                  <prop k="color2" v="0,255,0,255"/>
-                  <prop k="color_type" v="0"/>
-                  <prop k="discrete" v="0"/>
-                  <prop k="draw_mode" v="2"/>
-                  <prop k="enabled" v="0"/>
-                  <prop k="opacity" v="0.5"/>
-                  <prop k="rampType" v="gradient"/>
-                  <prop k="single_color" v="255,255,255,255"/>
-                  <prop k="spread" v="2"/>
-                  <prop k="spread_unit" v="MM"/>
-                  <prop k="spread_unit_scale" v="3x:0,0,0,0,0,0"/>
+                  <prop v="0" k="blend_mode"/>
+                  <prop v="2.645" k="blur_level"/>
+                  <prop v="MM" k="blur_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="blur_unit_scale"/>
+                  <prop v="0,0,255,255" k="color1"/>
+                  <prop v="0,255,0,255" k="color2"/>
+                  <prop v="0" k="color_type"/>
+                  <prop v="0" k="discrete"/>
+                  <prop v="2" k="draw_mode"/>
+                  <prop v="0" k="enabled"/>
+                  <prop v="0.5" k="opacity"/>
+                  <prop v="gradient" k="rampType"/>
+                  <prop v="255,255,255,255" k="single_color"/>
+                  <prop v="2" k="spread"/>
+                  <prop v="MM" k="spread_unit"/>
+                  <prop v="3x:0,0,0,0,0,0" k="spread_unit_scale"/>
                 </effect>
               </effect>
               <data_defined_properties>
@@ -1139,30 +1139,30 @@
       </renderer-v2>
       <labeling type="simple">
         <settings calloutType="simple">
-          <text-style fontStrikeout="0" textOpacity="1" fontFamily="Fira Code" fieldName="CONFIRMED" fontSize="30" fontSizeUnit="Point" textOrientation="horizontal" fontWeight="75" blendMode="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontKerning="1" isExpression="0" fontUnderline="0" useSubstitutions="0" fontCapitals="0" fontWordSpacing="0" multilineHeight="1" fontLetterSpacing="0" textColor="0,0,0,255" fontItalic="0" namedStyle="Bold" previewBkgrdColor="255,255,255,255">
-            <text-buffer bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferBlendMode="0" bufferDraw="1" bufferSize="2.1" bufferSizeUnits="MM" bufferNoFill="1" bufferOpacity="1" bufferColor="255,255,255,255" bufferJoinStyle="128"/>
-            <text-mask maskSizeUnits="MM" maskSize="1.5" maskedSymbolLayers="" maskEnabled="1" maskOpacity="1" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskJoinStyle="128" maskType="0"/>
-            <background shapeType="0" shapeFillColor="255,255,255,255" shapeSizeUnit="MM" shapeOpacity="1" shapeRotationType="0" shapeBlendMode="0" shapeSizeX="0" shapeRadiiY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeSizeY="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetX="0" shapeBorderWidthUnit="MM" shapeRadiiUnit="MM" shapeOffsetY="0" shapeRotation="0" shapeJoinStyle="64" shapeSizeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeBorderWidth="0" shapeDraw="0" shapeOffsetUnit="MM" shapeSVGFile="">
-              <symbol type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="markerSymbol">
-                <layer enabled="1" class="SimpleMarker" pass="0" locked="0">
-                  <prop k="angle" v="0"/>
-                  <prop k="color" v="133,182,111,255"/>
-                  <prop k="horizontal_anchor_point" v="1"/>
-                  <prop k="joinstyle" v="bevel"/>
-                  <prop k="name" v="circle"/>
-                  <prop k="offset" v="0,0"/>
-                  <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="offset_unit" v="MM"/>
-                  <prop k="outline_color" v="35,35,35,255"/>
-                  <prop k="outline_style" v="solid"/>
-                  <prop k="outline_width" v="0"/>
-                  <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="outline_width_unit" v="MM"/>
-                  <prop k="scale_method" v="diameter"/>
-                  <prop k="size" v="2"/>
-                  <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-                  <prop k="size_unit" v="MM"/>
-                  <prop k="vertical_anchor_point" v="1"/>
+          <text-style textColor="0,0,0,255" multilineHeight="1" fontItalic="0" fontUnderline="0" previewBkgrdColor="255,255,255,255" fontWeight="75" fontLetterSpacing="0" namedStyle="Bold" textOrientation="horizontal" useSubstitutions="0" textOpacity="1" fontKerning="1" fontSizeUnit="Point" fontSizeMapUnitScale="3x:0,0,0,0,0,0" isExpression="0" fieldName="CONFIRMED" fontFamily="Fira Code" fontWordSpacing="0" fontStrikeout="0" fontSize="30" blendMode="0" fontCapitals="0">
+            <text-buffer bufferDraw="1" bufferJoinStyle="128" bufferBlendMode="0" bufferSize="2.1" bufferNoFill="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM" bufferColor="255,255,255,255" bufferOpacity="1"/>
+            <text-mask maskEnabled="1" maskedSymbolLayers="" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskType="0" maskSizeUnits="MM" maskSize="1.5" maskJoinStyle="128" maskOpacity="1"/>
+            <background shapeSVGFile="" shapeBorderWidthUnit="MM" shapeSizeType="0" shapeSizeY="0" shapeOffsetX="0" shapeBorderWidth="0" shapeBorderColor="128,128,128,255" shapeRadiiUnit="MM" shapeSizeX="0" shapeRadiiY="0" shapeDraw="0" shapeFillColor="255,255,255,255" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRotationType="0" shapeOffsetY="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeJoinStyle="64" shapeBlendMode="0" shapeOpacity="1" shapeOffsetUnit="MM" shapeRotation="0" shapeSizeUnit="MM" shapeType="0">
+              <symbol type="marker" name="markerSymbol" alpha="1" force_rhr="0" clip_to_extent="1">
+                <layer enabled="1" locked="0" pass="0" class="SimpleMarker">
+                  <prop v="0" k="angle"/>
+                  <prop v="133,182,111,255" k="color"/>
+                  <prop v="1" k="horizontal_anchor_point"/>
+                  <prop v="bevel" k="joinstyle"/>
+                  <prop v="circle" k="name"/>
+                  <prop v="0,0" k="offset"/>
+                  <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+                  <prop v="MM" k="offset_unit"/>
+                  <prop v="35,35,35,255" k="outline_color"/>
+                  <prop v="solid" k="outline_style"/>
+                  <prop v="0" k="outline_width"/>
+                  <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+                  <prop v="MM" k="outline_width_unit"/>
+                  <prop v="diameter" k="scale_method"/>
+                  <prop v="2" k="size"/>
+                  <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+                  <prop v="MM" k="size_unit"/>
+                  <prop v="1" k="vertical_anchor_point"/>
                   <data_defined_properties>
                     <Option type="Map">
                       <Option type="QString" value="" name="name"/>
@@ -1173,7 +1173,7 @@
                 </layer>
               </symbol>
             </background>
-            <shadow shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowBlendMode="6" shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowUnder="0" shadowOffsetAngle="135" shadowRadius="1.5" shadowOpacity="0.7" shadowColor="0,0,0,255" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowOffsetDist="1" shadowRadiusAlphaOnly="0" shadowScale="100" shadowDraw="0"/>
+            <shadow shadowOffsetAngle="135" shadowOffsetUnit="MM" shadowOpacity="0.7" shadowDraw="0" shadowBlendMode="6" shadowUnder="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowScale="100" shadowOffsetGlobal="1" shadowOffsetDist="1" shadowRadius="1.5" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusUnit="MM" shadowColor="0,0,0,255"/>
             <dd_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -1183,9 +1183,9 @@
             </dd_properties>
             <substitutions/>
           </text-style>
-          <text-format placeDirectionSymbol="0" autoWrapLength="0" multilineAlign="0" reverseDirectionSymbol="0" plussign="0" wrapChar="" addDirectionSymbol="0" leftDirectionSymbol="&lt;" formatNumbers="0" rightDirectionSymbol=">" useMaxLineLengthForAutoWrap="1" decimals="3"/>
-          <placement priority="5" overrunDistanceUnit="MM" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" rotationAngle="0" centroidInside="0" quadOffset="4" placementFlags="10" overrunDistance="0" geometryGeneratorEnabled="0" geometryGenerator="" geometryGeneratorType="PointGeometry" maxCurvedCharAngleOut="-25" offsetUnits="MM" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" repeatDistanceUnits="MM" distUnits="MM" maxCurvedCharAngleIn="25" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" repeatDistance="0" yOffset="0" layerType="PolygonGeometry" offsetType="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" xOffset="0" placement="1" preserveRotation="1" dist="0" fitInPolygonOnly="0" distMapUnitScale="3x:0,0,0,0,0,0" centroidWhole="0"/>
-          <rendering scaleMin="0" fontMinPixelSize="3" scaleVisibility="0" scaleMax="0" fontLimitPixelSize="0" maxNumLabels="2000" obstacleType="1" minFeatureSize="0" displayAll="0" upsidedownLabels="0" zIndex="0" mergeLines="0" drawLabels="1" limitNumLabels="0" fontMaxPixelSize="10000" obstacle="1" obstacleFactor="1" labelPerPart="0"/>
+          <text-format addDirectionSymbol="0" formatNumbers="0" decimals="3" leftDirectionSymbol="&lt;" reverseDirectionSymbol="0" useMaxLineLengthForAutoWrap="1" multilineAlign="0" wrapChar="" placeDirectionSymbol="0" autoWrapLength="0" rightDirectionSymbol=">" plussign="0"/>
+          <placement fitInPolygonOnly="0" placement="1" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" xOffset="0" repeatDistance="0" repeatDistanceUnits="MM" offsetType="0" layerType="PolygonGeometry" rotationAngle="0" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" yOffset="0" centroidInside="0" dist="0" preserveRotation="1" maxCurvedCharAngleOut="-25" overrunDistanceUnit="MM" geometryGeneratorEnabled="0" priority="5" overrunDistance="0" geometryGeneratorType="PointGeometry" centroidWhole="0" distUnits="MM" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" geometryGenerator="" distMapUnitScale="3x:0,0,0,0,0,0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" placementFlags="10" offsetUnits="MM" quadOffset="4" maxCurvedCharAngleIn="25"/>
+          <rendering labelPerPart="0" obstacleType="1" zIndex="0" drawLabels="1" scaleMax="0" fontLimitPixelSize="0" minFeatureSize="0" scaleVisibility="0" fontMinPixelSize="3" obstacle="1" fontMaxPixelSize="10000" mergeLines="0" maxNumLabels="2000" scaleMin="0" upsidedownLabels="0" obstacleFactor="1" limitNumLabels="0" displayAll="0"/>
           <dd_properties>
             <Option type="Map">
               <Option type="QString" value="" name="name"/>
@@ -1203,7 +1203,7 @@
               </Option>
               <Option type="bool" value="false" name="drawToAllParts"/>
               <Option type="QString" value="0" name="enabled"/>
-              <Option type="QString" value="&lt;symbol type=&quot;line&quot; alpha=&quot;1&quot; clip_to_extent=&quot;1&quot; force_rhr=&quot;0&quot; name=&quot;symbol&quot;>&lt;layer enabled=&quot;1&quot; class=&quot;SimpleLine&quot; pass=&quot;0&quot; locked=&quot;0&quot;>&lt;prop k=&quot;capstyle&quot; v=&quot;square&quot;/>&lt;prop k=&quot;customdash&quot; v=&quot;5;2&quot;/>&lt;prop k=&quot;customdash_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;customdash_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;draw_inside_polygon&quot; v=&quot;0&quot;/>&lt;prop k=&quot;joinstyle&quot; v=&quot;bevel&quot;/>&lt;prop k=&quot;line_color&quot; v=&quot;60,60,60,255&quot;/>&lt;prop k=&quot;line_style&quot; v=&quot;solid&quot;/>&lt;prop k=&quot;line_width&quot; v=&quot;0.3&quot;/>&lt;prop k=&quot;line_width_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;offset&quot; v=&quot;0&quot;/>&lt;prop k=&quot;offset_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;prop k=&quot;offset_unit&quot; v=&quot;MM&quot;/>&lt;prop k=&quot;ring_filter&quot; v=&quot;0&quot;/>&lt;prop k=&quot;use_custom_dash&quot; v=&quot;0&quot;/>&lt;prop k=&quot;width_map_unit_scale&quot; v=&quot;3x:0,0,0,0,0,0&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
+              <Option type="QString" value="&lt;symbol type=&quot;line&quot; name=&quot;symbol&quot; alpha=&quot;1&quot; force_rhr=&quot;0&quot; clip_to_extent=&quot;1&quot;>&lt;layer enabled=&quot;1&quot; locked=&quot;0&quot; pass=&quot;0&quot; class=&quot;SimpleLine&quot;>&lt;prop v=&quot;square&quot; k=&quot;capstyle&quot;/>&lt;prop v=&quot;5;2&quot; k=&quot;customdash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;customdash_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;customdash_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;draw_inside_polygon&quot;/>&lt;prop v=&quot;bevel&quot; k=&quot;joinstyle&quot;/>&lt;prop v=&quot;60,60,60,255&quot; k=&quot;line_color&quot;/>&lt;prop v=&quot;solid&quot; k=&quot;line_style&quot;/>&lt;prop v=&quot;0.3&quot; k=&quot;line_width&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;line_width_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;offset&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;offset_map_unit_scale&quot;/>&lt;prop v=&quot;MM&quot; k=&quot;offset_unit&quot;/>&lt;prop v=&quot;0&quot; k=&quot;ring_filter&quot;/>&lt;prop v=&quot;0&quot; k=&quot;use_custom_dash&quot;/>&lt;prop v=&quot;3x:0,0,0,0,0,0&quot; k=&quot;width_map_unit_scale&quot;/>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
               <Option type="double" value="0" name="minLength"/>
               <Option type="QString" value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale"/>
               <Option type="QString" value="MM" name="minLengthUnit"/>
@@ -1218,7 +1218,7 @@
         </settings>
       </labeling>
       <customproperties>
-        <property key="dualview/previewExpressions" value="&quot;NOMBDEP&quot;"/>
+        <property value="&quot;NOMBDEP&quot;" key="dualview/previewExpressions"/>
       </customproperties>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
@@ -1290,61 +1290,61 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias field="fid" index="0" name=""/>
-        <alias field="NOMBDEP" index="1" name=""/>
-        <alias field="AREA_KM²" index="2" name=""/>
-        <alias field="FEC_ACT" index="3" name=""/>
-        <alias field="FUENTE" index="4" name=""/>
-        <alias field="Population" index="5" name=""/>
-        <alias field="REGION" index="6" name=""/>
-        <alias field="CONFIRMED" index="7" name=""/>
+        <alias name="" field="fid" index="0"/>
+        <alias name="" field="NOMBDEP" index="1"/>
+        <alias name="" field="AREA_KM²" index="2"/>
+        <alias name="" field="FEC_ACT" index="3"/>
+        <alias name="" field="FUENTE" index="4"/>
+        <alias name="" field="Population" index="5"/>
+        <alias name="" field="REGION" index="6"/>
+        <alias name="" field="CONFIRMED" index="7"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default expression="" applyOnUpdate="0" field="fid"/>
-        <default expression="" applyOnUpdate="0" field="NOMBDEP"/>
-        <default expression="" applyOnUpdate="0" field="AREA_KM²"/>
-        <default expression="" applyOnUpdate="0" field="FEC_ACT"/>
-        <default expression="" applyOnUpdate="0" field="FUENTE"/>
-        <default expression="" applyOnUpdate="0" field="Population"/>
-        <default expression="" applyOnUpdate="0" field="REGION"/>
-        <default expression="" applyOnUpdate="0" field="CONFIRMED"/>
+        <default applyOnUpdate="0" field="fid" expression=""/>
+        <default applyOnUpdate="0" field="NOMBDEP" expression=""/>
+        <default applyOnUpdate="0" field="AREA_KM²" expression=""/>
+        <default applyOnUpdate="0" field="FEC_ACT" expression=""/>
+        <default applyOnUpdate="0" field="FUENTE" expression=""/>
+        <default applyOnUpdate="0" field="Population" expression=""/>
+        <default applyOnUpdate="0" field="REGION" expression=""/>
+        <default applyOnUpdate="0" field="CONFIRMED" expression=""/>
       </defaults>
       <constraints>
-        <constraint constraints="3" field="fid" notnull_strength="1" unique_strength="1" exp_strength="0"/>
-        <constraint constraints="0" field="NOMBDEP" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="AREA_KM²" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="FEC_ACT" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="FUENTE" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="Population" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="REGION" notnull_strength="0" unique_strength="0" exp_strength="0"/>
-        <constraint constraints="0" field="CONFIRMED" notnull_strength="0" unique_strength="0" exp_strength="0"/>
+        <constraint exp_strength="0" field="fid" unique_strength="1" notnull_strength="1" constraints="3"/>
+        <constraint exp_strength="0" field="NOMBDEP" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="AREA_KM²" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="FEC_ACT" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="FUENTE" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="Population" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="REGION" unique_strength="0" notnull_strength="0" constraints="0"/>
+        <constraint exp_strength="0" field="CONFIRMED" unique_strength="0" notnull_strength="0" constraints="0"/>
       </constraints>
       <constraintExpressions>
-        <constraint field="fid" desc="" exp=""/>
-        <constraint field="NOMBDEP" desc="" exp=""/>
-        <constraint field="AREA_KM²" desc="" exp=""/>
-        <constraint field="FEC_ACT" desc="" exp=""/>
-        <constraint field="FUENTE" desc="" exp=""/>
-        <constraint field="Population" desc="" exp=""/>
-        <constraint field="REGION" desc="" exp=""/>
-        <constraint field="CONFIRMED" desc="" exp=""/>
+        <constraint desc="" field="fid" exp=""/>
+        <constraint desc="" field="NOMBDEP" exp=""/>
+        <constraint desc="" field="AREA_KM²" exp=""/>
+        <constraint desc="" field="FEC_ACT" exp=""/>
+        <constraint desc="" field="FUENTE" exp=""/>
+        <constraint desc="" field="Population" exp=""/>
+        <constraint desc="" field="REGION" exp=""/>
+        <constraint desc="" field="CONFIRMED" exp=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;CONFIRMED&quot;" sortOrder="1">
+      <attributetableconfig sortExpression="&quot;CONFIRMED&quot;" actionWidgetStyle="dropDown" sortOrder="1">
         <columns>
-          <column type="field" hidden="0" width="-1" name="fid"/>
-          <column type="field" hidden="0" width="-1" name="NOMBDEP"/>
-          <column type="field" hidden="0" width="-1" name="AREA_KM²"/>
-          <column type="field" hidden="0" width="-1" name="FEC_ACT"/>
-          <column type="field" hidden="0" width="-1" name="FUENTE"/>
-          <column type="field" hidden="0" width="-1" name="Population"/>
-          <column type="field" hidden="0" width="-1" name="REGION"/>
-          <column type="field" hidden="0" width="-1" name="CONFIRMED"/>
+          <column type="field" name="fid" hidden="0" width="-1"/>
+          <column type="field" name="NOMBDEP" hidden="0" width="-1"/>
+          <column type="field" name="AREA_KM²" hidden="0" width="-1"/>
+          <column type="field" name="FEC_ACT" hidden="0" width="-1"/>
+          <column type="field" name="FUENTE" hidden="0" width="-1"/>
+          <column type="field" name="Population" hidden="0" width="-1"/>
+          <column type="field" name="REGION" hidden="0" width="-1"/>
+          <column type="field" name="CONFIRMED" hidden="0" width="-1"/>
           <column type="actions" hidden="1" width="-1"/>
         </columns>
       </attributetableconfig>
@@ -1352,7 +1352,7 @@
         <rowstyles/>
         <fieldstyles>
           <fieldstyle fieldname="CONFIRMED">
-            <style background_color_alpha="255" text_color_alpha="255" background_color="#eded0e" text_color="#000000" rule=" @value >= 0  " name="">
+            <style name="" text_color="#000000" rule=" @value >= 0  " background_color="#eded0e" background_color_alpha="255" text_color_alpha="255">
               <font description="Fira Code,9,-1,5,75,0,0,0,0,0" style=""/>
             </style>
           </fieldstyle>
@@ -1389,7 +1389,7 @@
       <SelectionColorRedPart type="int">255</SelectionColorRedPart>
     </Gui>
     <Layouts>
-      <lastLayoutExportDir type="QString">/home/antony/Documentos/GitHub/COVID19/COVID19/Img</lastLayoutExportDir>
+      <lastLayoutExportDir type="QString">/home/antony/Documentos/GitHub/COVID19/COVID19/Img2</lastLayoutExportDir>
     </Layouts>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
@@ -1423,16 +1423,16 @@
     </PositionPrecision>
   </properties>
   <visibility-presets>
-    <visibility-preset has-checked-group-info="1" name="COVID19" has-expanded-info="1">
-      <layer expanded="1" id="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" style="predeterminado"/>
+    <visibility-preset has-expanded-info="1" name="COVID19" has-checked-group-info="1">
+      <layer id="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" expanded="1" style="predeterminado"/>
       <expanded-legend-nodes id="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b"/>
       <checked-group-nodes/>
       <expanded-group-nodes/>
     </visibility-preset>
-    <visibility-preset has-checked-group-info="1" name="REGION" has-expanded-info="1">
-      <layer expanded="1" id="Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059" style="predeterminado"/>
+    <visibility-preset has-expanded-info="1" name="REGION" has-checked-group-info="1">
+      <layer id="Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059" expanded="1" style="predeterminado"/>
       <expanded-legend-nodes id="Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059"/>
-      <layer expanded="1" id="Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2" style="predeterminado"/>
+      <layer id="Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2" expanded="1" style="predeterminado"/>
       <expanded-legend-nodes id="Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2"/>
       <checked-group-nodes/>
       <expanded-group-nodes/>
@@ -1452,23 +1452,23 @@
   </projectMetadata>
   <Annotations/>
   <Layouts>
-    <Layout printResolution="300" worldFileMap="{33f3ec7b-4f8d-49bd-a7b7-50f890b7920e}" units="mm" name="COVID19">
-      <Snapper tolerance="5" snapToItems="1" snapToGrid="0" snapToGuides="1"/>
-      <Grid resolution="10" resUnits="mm" offsetY="0" offsetX="0" offsetUnits="mm"/>
+    <Layout name="COVID19" units="mm" printResolution="300" worldFileMap="{33f3ec7b-4f8d-49bd-a7b7-50f890b7920e}">
+      <Snapper snapToGrid="0" snapToItems="1" tolerance="5" snapToGuides="1"/>
+      <Grid resolution="10" offsetY="0" offsetUnits="mm" offsetX="0" resUnits="mm"/>
       <PageCollection>
-        <symbol type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="">
-          <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="255,255,255,255"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="35,35,35,255"/>
-            <prop k="outline_style" v="no"/>
-            <prop k="outline_width" v="0.26"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" name="" alpha="1" force_rhr="0" clip_to_extent="1">
+          <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,255" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="35,35,35,255" k="outline_color"/>
+            <prop v="no" k="outline_style"/>
+            <prop v="0.26" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -1478,9 +1478,9 @@
             </data_defined_properties>
           </layer>
         </symbol>
-        <LayoutItem itemRotation="0" opacity="1" zValue="0" positionLock="false" templateUuid="{81564593-f9dd-47ff-b786-3307208c286d}" blendMode="0" size="297,210,mm" groupUuid="" frame="false" positionOnPage="0,0,mm" uuid="{81564593-f9dd-47ff-b786-3307208c286d}" visibility="1" id="" type="65638" excludeFromExports="0" background="true" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" position="0,0,mm">
-          <FrameColor blue="0" red="0" alpha="255" green="0"/>
-          <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+        <LayoutItem itemRotation="0" position="0,0,mm" type="65638" opacity="1" groupUuid="" uuid="{81564593-f9dd-47ff-b786-3307208c286d}" positionLock="false" zValue="0" referencePoint="0" templateUuid="{81564593-f9dd-47ff-b786-3307208c286d}" frameJoinStyle="miter" size="297,210,mm" excludeFromExports="0" positionOnPage="0,0,mm" visibility="1" background="true" frame="false" id="" blendMode="0" outlineWidthM="0.3,mm">
+          <FrameColor blue="0" alpha="255" green="0" red="0"/>
+          <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
           <LayoutObject>
             <dataDefinedProperties>
               <Option type="Map">
@@ -1491,19 +1491,19 @@
             </dataDefinedProperties>
             <customproperties/>
           </LayoutObject>
-          <symbol type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="">
-            <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="color" v="255,255,255,255"/>
-              <prop k="joinstyle" v="miter"/>
-              <prop k="offset" v="0,0"/>
-              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="outline_color" v="35,35,35,255"/>
-              <prop k="outline_style" v="no"/>
-              <prop k="outline_width" v="0.26"/>
-              <prop k="outline_width_unit" v="MM"/>
-              <prop k="style" v="solid"/>
+          <symbol type="fill" name="" alpha="1" force_rhr="0" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,255,255,255" k="color"/>
+              <prop v="miter" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="no" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
               <data_defined_properties>
                 <Option type="Map">
                   <Option type="QString" value="" name="name"/>
@@ -1516,25 +1516,9 @@
         </LayoutItem>
         <GuideCollection visible="1"/>
       </PageCollection>
-      <LayoutItem itemRotation="0" opacity="1" zValue="36" positionLock="false" templateUuid="{5ee27fdb-5bd1-4b22-acbd-fecc5d1034a5}" blendMode="0" valign="32" size="191.147,7.21626,mm" groupUuid="" frame="false" positionOnPage="98.518,200.646,mm" marginX="0" uuid="{5ee27fdb-5bd1-4b22-acbd-fecc5d1034a5}" visibility="1" id="" labelText="[%'Realizado con QGIS y DataPloty :: '|| '©' ||  @project_author||' barja' || ' - QGIS'  || @qgis_version %]" type="65641" excludeFromExports="0" background="false" marginY="0" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" htmlState="0" position="98.518,200.646,mm" halign="2">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
-        <LayoutObject>
-          <dataDefinedProperties>
-            <Option type="Map">
-              <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
-            </Option>
-          </dataDefinedProperties>
-          <customproperties/>
-        </LayoutObject>
-        <LabelFont description="DejaVu Sans,13,-1,5,75,1,0,0,0,0" style=""/>
-        <FontColor blue="0" red="0" alpha="255" green="0"/>
-      </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="36" positionLock="false" templateUuid="{4df34fae-030a-4d50-990c-caf5cfeeedfa}" blendMode="0" valign="128" size="74.3099,7.35204,mm" groupUuid="" frame="false" positionOnPage="121.184,189.49,mm" marginX="0" uuid="{4df34fae-030a-4d50-990c-caf5cfeeedfa}" visibility="1" id="" labelText="-Mismas escala X e Y-" type="65641" excludeFromExports="0" background="true" marginY="1" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" htmlState="0" position="121.184,189.49,mm" halign="4">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="206" red="6" alpha="255" green="0"/>
+      <LayoutItem itemRotation="0" position="121.184,189.49,mm" marginY="1" type="65641" opacity="1" htmlState="0" labelText="-Mismas escala X e Y-" groupUuid="" uuid="{4df34fae-030a-4d50-990c-caf5cfeeedfa}" positionLock="false" zValue="36" referencePoint="0" templateUuid="{4df34fae-030a-4d50-990c-caf5cfeeedfa}" frameJoinStyle="miter" halign="4" size="74.3099,7.35204,mm" excludeFromExports="0" positionOnPage="121.184,189.49,mm" visibility="1" background="true" valign="128" frame="false" id="" blendMode="0" marginX="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="206" alpha="255" green="0" red="6"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1546,11 +1530,27 @@
           <customproperties/>
         </LayoutObject>
         <LabelFont description="DejaVu Sans,15,-1,5,75,1,0,0,0,0" style=""/>
-        <FontColor blue="255" red="255" alpha="255" green="255"/>
+        <FontColor blue="255" alpha="255" green="255" red="255"/>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="20" positionLock="false" templateUuid="{1ad771b7-89e5-4e60-afc0-abfaf1973c58}" blendMode="0" valign="128" size="89.1518,11.5683,mm" groupUuid="" frame="false" positionOnPage="114.526,110.027,mm" marginX="0" uuid="{1ad771b7-89e5-4e60-afc0-abfaf1973c58}" visibility="1" id="" labelText="-CASOS TOTALES-" type="65641" excludeFromExports="0" background="true" marginY="1" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" htmlState="0" position="114.526,110.027,mm" halign="4">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="206" red="6" alpha="255" green="0"/>
+      <LayoutItem itemRotation="0" position="98.518,200.646,mm" marginY="0" type="65641" opacity="1" htmlState="0" labelText="[%'Realizado con QGIS y DataPloty :: '|| '©' ||  @project_author||' barja' || ' - QGIS'  || @qgis_version %]" groupUuid="" uuid="{5ee27fdb-5bd1-4b22-acbd-fecc5d1034a5}" positionLock="false" zValue="36" referencePoint="0" templateUuid="{5ee27fdb-5bd1-4b22-acbd-fecc5d1034a5}" frameJoinStyle="miter" halign="2" size="191.147,7.21626,mm" excludeFromExports="0" positionOnPage="98.518,200.646,mm" visibility="1" background="false" valign="32" frame="false" id="" blendMode="0" marginX="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option type="QString" value="" name="name"/>
+              <Option name="properties"/>
+              <Option type="QString" value="collection" name="type"/>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties/>
+        </LayoutObject>
+        <LabelFont description="DejaVu Sans,13,-1,5,75,1,0,0,0,0" style=""/>
+        <FontColor blue="0" alpha="255" green="0" red="0"/>
+      </LayoutItem>
+      <LayoutItem itemRotation="0" position="114.526,110.027,mm" marginY="1" type="65641" opacity="1" htmlState="0" labelText="-CASOS TOTALES-" groupUuid="" uuid="{1ad771b7-89e5-4e60-afc0-abfaf1973c58}" positionLock="false" zValue="20" referencePoint="0" templateUuid="{1ad771b7-89e5-4e60-afc0-abfaf1973c58}" frameJoinStyle="miter" halign="4" size="89.1518,11.5683,mm" excludeFromExports="0" positionOnPage="114.526,110.027,mm" visibility="1" background="true" valign="128" frame="false" id="" blendMode="0" marginX="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="206" alpha="255" green="0" red="6"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1562,11 +1562,11 @@
           <customproperties/>
         </LayoutObject>
         <LabelFont description="DejaVu Sans,20,-1,5,75,1,0,0,0,0" style=""/>
-        <FontColor blue="255" red="255" alpha="255" green="255"/>
+        <FontColor blue="255" alpha="255" green="255" red="255"/>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="18" positionLock="false" templateUuid="{6e202746-5bd9-495c-91a6-a6ca86177f2d}" blendMode="0" valign="32" size="85.7401,7.16765,mm" groupUuid="" frame="false" positionOnPage="7.01765,200.694,mm" marginX="0" uuid="{6e202746-5bd9-495c-91a6-a6ca86177f2d}" visibility="1" id="" labelText="Fuente: MINSA " type="65641" excludeFromExports="0" background="false" marginY="0" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" htmlState="0" position="7.01765,200.694,mm" halign="8">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="7.01765,200.694,mm" marginY="0" type="65641" opacity="1" htmlState="0" labelText="Fuente: MINSA " groupUuid="" uuid="{6e202746-5bd9-495c-91a6-a6ca86177f2d}" positionLock="false" zValue="18" referencePoint="0" templateUuid="{6e202746-5bd9-495c-91a6-a6ca86177f2d}" frameJoinStyle="miter" halign="8" size="85.7401,7.16765,mm" excludeFromExports="0" positionOnPage="7.01765,200.694,mm" visibility="1" background="false" valign="32" frame="false" id="" blendMode="0" marginX="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1578,11 +1578,11 @@
           <customproperties/>
         </LayoutObject>
         <LabelFont description="DejaVu Sans,13,-1,5,75,1,0,0,0,0" style=""/>
-        <FontColor blue="0" red="0" alpha="255" green="0"/>
+        <FontColor blue="0" alpha="255" green="0" red="0"/>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="15" positionLock="false" templateUuid="{8b230149-9513-4d5d-9595-9a7f70613808}" blendMode="0" valign="32" size="73.9652,10,mm" groupUuid="" frame="false" positionOnPage="166.353,124.595,mm" marginX="0" uuid="{8b230149-9513-4d5d-9595-9a7f70613808}" visibility="1" id="" labelText="CASOS ACUMULADOS&#xa;&#xa; " type="65641" excludeFromExports="0" background="false" marginY="0" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" htmlState="0" position="166.353,124.595,mm" halign="8">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="166.353,124.595,mm" marginY="0" type="65641" opacity="1" htmlState="0" labelText="CASOS ACUMULADOS&#xa;&#xa; " groupUuid="" uuid="{8b230149-9513-4d5d-9595-9a7f70613808}" positionLock="false" zValue="15" referencePoint="0" templateUuid="{8b230149-9513-4d5d-9595-9a7f70613808}" frameJoinStyle="miter" halign="8" size="73.9652,10,mm" excludeFromExports="0" positionOnPage="166.353,124.595,mm" visibility="1" background="false" valign="32" frame="false" id="" blendMode="0" marginX="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1594,11 +1594,11 @@
           <customproperties/>
         </LayoutObject>
         <LabelFont description="DejaVu Sans,15,-1,5,75,1,0,0,0,0" style=""/>
-        <FontColor blue="0" red="0" alpha="255" green="0"/>
+        <FontColor blue="0" alpha="255" green="0" red="0"/>
       </LayoutItem>
-      <LayoutItem svgBorderColor="0,0,0,255" itemRotation="0" opacity="1" pictureWidth="27.5896" svgBorderWidth="0.2" zValue="14" positionLock="false" northOffset="0" templateUuid="{914a6d81-5410-4db0-82b5-8e997da98972}" blendMode="0" size="27.9148,13.2262,mm" groupUuid="" anchorPoint="0" frame="false" positionOnPage="241.663,108.369,mm" uuid="{914a6d81-5410-4db0-82b5-8e997da98972}" pictureHeight="13.2262" visibility="1" id="" northMode="0" type="65640" svgFillColor="255,255,255,255" mapUuid="" excludeFromExports="0" background="false" resizeMode="0" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" file="./Img/logo_QGIS_3.png" pictureRotation="0" position="241.663,108.369,mm">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="241.663,108.369,mm" type="65640" opacity="1" svgFillColor="255,255,255,255" file="./Img/logo_QGIS_3.png" northOffset="0" groupUuid="" uuid="{914a6d81-5410-4db0-82b5-8e997da98972}" pictureRotation="0" positionLock="false" zValue="14" referencePoint="0" svgBorderWidth="0.2" templateUuid="{914a6d81-5410-4db0-82b5-8e997da98972}" frameJoinStyle="miter" size="27.9148,13.2262,mm" excludeFromExports="0" svgBorderColor="0,0,0,255" mapUuid="" northMode="0" positionOnPage="241.663,108.369,mm" visibility="1" background="false" frame="false" id="" pictureHeight="13.2262" resizeMode="0" blendMode="0" outlineWidthM="0.3,mm" pictureWidth="27.5896" anchorPoint="0">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1610,9 +1610,9 @@
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="13" positionLock="false" filter_by_map="0" templateUuid="{14eef823-4661-4c3a-bfe4-777750cc82da}" blendMode="0" size="137.217,78.1843,mm" linked_map="{4c43d5ef-1ae5-40a5-a059-4005b73b6d94}" groupUuid="" filter_by_atlas="0" frame="false" positionOnPage="148.412,114.982,mm" uuid="{14eef823-4661-4c3a-bfe4-777750cc82da}" visibility="1" id="" type="76987" excludeFromExports="0" background="true" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" position="148.412,114.982,mm">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="148.412,114.982,mm" type="76987" opacity="1" groupUuid="" uuid="{14eef823-4661-4c3a-bfe4-777750cc82da}" linked_map="{4c43d5ef-1ae5-40a5-a059-4005b73b6d94}" positionLock="true" zValue="13" referencePoint="0" templateUuid="{14eef823-4661-4c3a-bfe4-777750cc82da}" frameJoinStyle="miter" size="137.217,78.1843,mm" excludeFromExports="0" positionOnPage="148.412,114.982,mm" visibility="1" filter_by_atlas="0" background="true" frame="false" id="" filter_by_map="0" blendMode="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1709,9 +1709,9 @@
           <Option type="QString" value="COVID19_PER_d179c159_4f48_472c_aef1_c22b01da51e5" name="source_layer_id"/>
         </Option>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="12" positionLock="false" templateUuid="{5c9a6282-cae1-4c5b-b25a-c2c904512ee7}" blendMode="0" valign="32" size="52.3321,9.22621,mm" groupUuid="" frame="false" positionOnPage="17.4057,124.369,mm" marginX="0" uuid="{5c9a6282-cae1-4c5b-b25a-c2c904512ee7}" visibility="1" id="" labelText="CASOS DIARIOS&#xa;&#xa; " type="65641" excludeFromExports="0" background="false" marginY="0" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" htmlState="0" position="17.4057,124.369,mm" halign="8">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="17.4057,124.369,mm" marginY="0" type="65641" opacity="1" htmlState="0" labelText="CASOS DIARIOS&#xa;&#xa; " groupUuid="" uuid="{5c9a6282-cae1-4c5b-b25a-c2c904512ee7}" positionLock="false" zValue="12" referencePoint="0" templateUuid="{5c9a6282-cae1-4c5b-b25a-c2c904512ee7}" frameJoinStyle="miter" halign="8" size="52.3321,9.22621,mm" excludeFromExports="0" positionOnPage="17.4057,124.369,mm" visibility="1" background="false" valign="32" frame="false" id="" blendMode="0" marginX="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1723,11 +1723,11 @@
           <customproperties/>
         </LayoutObject>
         <LabelFont description="DejaVu Sans,15,-1,5,75,1,0,0,0,0" style=""/>
-        <FontColor blue="0" red="0" alpha="255" green="0"/>
+        <FontColor blue="0" alpha="255" green="0" red="0"/>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="11" positionLock="false" sectionY="0" multiFrameTemplateUuid="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" templateUuid="{604001a6-40dc-45ae-a637-42a0196cbc25}" blendMode="0" sectionHeight="14.6639" hideBackgroundIfEmpty="0" size="140.091,14.6639,mm" groupUuid="" frame="false" positionOnPage="90.3144,88.3362,mm" sectionWidth="140.091" hidePageIfEmpty="0" uuid="{604001a6-40dc-45ae-a637-42a0196cbc25}" visibility="1" id="" type="65647" excludeFromExports="0" background="false" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" sectionX="0" multiFrame="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" position="90.3144,88.3362,mm">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="90.3144,88.3362,mm" sectionX="0" type="65647" opacity="1" sectionY="0" hideBackgroundIfEmpty="0" groupUuid="" uuid="{604001a6-40dc-45ae-a637-42a0196cbc25}" multiFrameTemplateUuid="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" positionLock="false" zValue="11" referencePoint="0" templateUuid="{604001a6-40dc-45ae-a637-42a0196cbc25}" frameJoinStyle="miter" multiFrame="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" hidePageIfEmpty="0" size="139.911,14.6639,mm" excludeFromExports="0" positionOnPage="90.3144,88.3362,mm" visibility="1" background="false" sectionWidth="139.911" frame="false" id="" blendMode="0" sectionHeight="14.6639" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1739,9 +1739,9 @@
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="10" positionLock="false" templateUuid="{873ba4fa-8f6b-4e2f-a478-d186daa932ed}" blendMode="0" valign="128" size="84.6884,18.0979,mm" groupUuid="" frame="false" positionOnPage="116.526,52.9242,mm" marginX="0" uuid="{873ba4fa-8f6b-4e2f-a478-d186daa932ed}" visibility="1" id="" labelText="Línea 113" type="65641" excludeFromExports="0" background="false" marginY="0" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" htmlState="0" position="116.526,52.9242,mm" halign="4">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="116.526,52.9242,mm" marginY="0" type="65641" opacity="1" htmlState="0" labelText="Línea 113" groupUuid="" uuid="{873ba4fa-8f6b-4e2f-a478-d186daa932ed}" positionLock="false" zValue="10" referencePoint="0" templateUuid="{873ba4fa-8f6b-4e2f-a478-d186daa932ed}" frameJoinStyle="miter" halign="4" size="84.6884,18.0979,mm" excludeFromExports="0" positionOnPage="116.526,52.9242,mm" visibility="1" background="false" valign="128" frame="false" id="" blendMode="0" marginX="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1753,11 +1753,11 @@
           <customproperties/>
         </LayoutObject>
         <LabelFont description="Fira Code,28,-1,5,75,1,0,0,0,0" style=""/>
-        <FontColor blue="240" red="12" alpha="255" green="23"/>
+        <FontColor blue="240" alpha="255" green="23" red="12"/>
       </LayoutItem>
-      <LayoutItem svgBorderColor="0,0,0,255" itemRotation="0" opacity="1" pictureWidth="19.3956" svgBorderWidth="0.2" zValue="9" positionLock="false" northOffset="0" templateUuid="{8f00e91c-19dc-444b-b56c-5d644d595658}" blendMode="0" size="19.4557,19.3956,mm" groupUuid="" anchorPoint="0" frame="false" positionOnPage="149.6,65.9139,mm" uuid="{8f00e91c-19dc-444b-b56c-5d644d595658}" pictureHeight="19.3956" visibility="1" id="" northMode="0" type="65640" svgFillColor="255,255,255,255" mapUuid="" excludeFromExports="0" background="false" resizeMode="0" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" file="./Img/telephone.jpg" pictureRotation="0" position="149.6,65.9139,mm">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="149.6,65.9139,mm" type="65640" opacity="1" svgFillColor="255,255,255,255" file="./Img/telephone.jpg" northOffset="0" groupUuid="" uuid="{8f00e91c-19dc-444b-b56c-5d644d595658}" pictureRotation="0" positionLock="false" zValue="9" referencePoint="0" svgBorderWidth="0.2" templateUuid="{8f00e91c-19dc-444b-b56c-5d644d595658}" frameJoinStyle="miter" size="19.4557,19.3956,mm" excludeFromExports="0" svgBorderColor="0,0,0,255" mapUuid="" northMode="0" positionOnPage="149.6,65.9139,mm" visibility="1" background="false" frame="false" id="" pictureHeight="19.3956" resizeMode="0" blendMode="0" outlineWidthM="0.3,mm" pictureWidth="19.3956" anchorPoint="0">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1769,9 +1769,9 @@
           <customproperties/>
         </LayoutObject>
       </LayoutItem>
-      <LayoutItem shapeType="1" itemRotation="0" opacity="1" zValue="8" positionLock="false" templateUuid="{bcba13a8-56ee-40c3-9297-7b7d204e02a8}" blendMode="0" size="85.7362,23.9795,mm" groupUuid="" frame="false" positionOnPage="115.576,52.9242,mm" uuid="{bcba13a8-56ee-40c3-9297-7b7d204e02a8}" visibility="1" id="" type="65643" cornerRadiusMeasure="0,mm" excludeFromExports="0" background="false" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" position="115.576,52.9242,mm">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="115.576,52.9242,mm" type="65643" opacity="1" groupUuid="" uuid="{bcba13a8-56ee-40c3-9297-7b7d204e02a8}" positionLock="false" zValue="8" referencePoint="0" templateUuid="{bcba13a8-56ee-40c3-9297-7b7d204e02a8}" frameJoinStyle="miter" cornerRadiusMeasure="0,mm" size="85.7362,23.9795,mm" excludeFromExports="0" positionOnPage="115.576,52.9242,mm" visibility="1" background="false" frame="false" id="" blendMode="0" outlineWidthM="0.3,mm" shapeType="1">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1782,19 +1782,19 @@
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <symbol type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="">
-          <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="255,255,255,0"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="255,0,0,255"/>
-            <prop k="outline_style" v="solid"/>
-            <prop k="outline_width" v="2.1"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" name="" alpha="1" force_rhr="0" clip_to_extent="1">
+          <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,0" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="255,0,0,255" k="outline_color"/>
+            <prop v="solid" k="outline_style"/>
+            <prop v="2.1" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -1805,9 +1805,9 @@
           </layer>
         </symbol>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="7" positionLock="false" templateUuid="{17e9611a-1c9a-4fce-b6dc-bd156b010597}" blendMode="0" valign="128" size="169.699,10.031,mm" groupUuid="" frame="false" positionOnPage="74.2259,10.3414,mm" marginX="0" uuid="{17e9611a-1c9a-4fce-b6dc-bd156b010597}" visibility="1" id="" labelText="Situación actual al 19-03-2020 a las 12:00 Hrs" type="65641" excludeFromExports="0" background="false" marginY="0" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" htmlState="0" position="74.2259,10.3414,mm" halign="4">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="74.2259,10.3414,mm" marginY="0" type="65641" opacity="1" htmlState="0" labelText="Situación actual al 19-03-2020 a las 12:00 Hrs" groupUuid="" uuid="{17e9611a-1c9a-4fce-b6dc-bd156b010597}" positionLock="false" zValue="7" referencePoint="0" templateUuid="{17e9611a-1c9a-4fce-b6dc-bd156b010597}" frameJoinStyle="miter" halign="4" size="169.699,10.031,mm" excludeFromExports="0" positionOnPage="74.2259,10.3414,mm" visibility="1" background="false" valign="128" frame="false" id="" blendMode="0" marginX="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1819,11 +1819,11 @@
           <customproperties/>
         </LayoutObject>
         <LabelFont description="DejaVu Sans,18,-1,5,75,1,0,0,0,0" style=""/>
-        <FontColor blue="0" red="0" alpha="255" green="0"/>
+        <FontColor blue="0" alpha="255" green="0" red="0"/>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="6" positionLock="false" templateUuid="{2ea6d49a-869e-436d-bc20-5fb69fc3d4a0}" blendMode="0" valign="128" size="220.371,20.4448,mm" groupUuid="" frame="false" positionOnPage="48.2069,-4,mm" marginX="0" uuid="{2ea6d49a-869e-436d-bc20-5fb69fc3d4a0}" visibility="1" id="" labelText="COVID 19 - PERÚ - DEPARTAMENTOS" type="65641" excludeFromExports="0" background="false" marginY="0" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" htmlState="0" position="48.2069,-4,mm" halign="4">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="48.2069,-4,mm" marginY="0" type="65641" opacity="1" htmlState="0" labelText="COVID 19 - PERÚ - DEPARTAMENTOS" groupUuid="" uuid="{2ea6d49a-869e-436d-bc20-5fb69fc3d4a0}" positionLock="false" zValue="6" referencePoint="0" templateUuid="{2ea6d49a-869e-436d-bc20-5fb69fc3d4a0}" frameJoinStyle="miter" halign="4" size="220.371,20.4448,mm" excludeFromExports="0" positionOnPage="48.2069,-4,mm" visibility="1" background="false" valign="128" frame="false" id="" blendMode="0" marginX="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1835,11 +1835,11 @@
           <customproperties/>
         </LayoutObject>
         <LabelFont description="DejaVu Sans,28,-1,5,75,0,0,0,0,0" style=""/>
-        <FontColor blue="0" red="0" alpha="255" green="0"/>
+        <FontColor blue="0" alpha="255" green="0" red="0"/>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="5" positionLock="false" templateUuid="{423a95d9-f0fe-4baa-80aa-cd8a0fef9a14}" blendMode="0" valign="128" size="86.7862,19.6103,mm" groupUuid="" frame="false" positionOnPage="115.576,27.7897,mm" marginX="0" uuid="{423a95d9-f0fe-4baa-80aa-cd8a0fef9a14}" visibility="1" id="" labelText="-[% &quot;NOMBDEP&quot; %]-" type="65641" excludeFromExports="0" background="true" marginY="1" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" htmlState="0" position="115.576,27.7897,mm" halign="4">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="206" red="6" alpha="255" green="0"/>
+      <LayoutItem itemRotation="0" position="115.576,27.7897,mm" marginY="1" type="65641" opacity="1" htmlState="0" labelText="-[% &quot;NOMBDEP&quot; %]-" groupUuid="" uuid="{423a95d9-f0fe-4baa-80aa-cd8a0fef9a14}" positionLock="false" zValue="5" referencePoint="0" templateUuid="{423a95d9-f0fe-4baa-80aa-cd8a0fef9a14}" frameJoinStyle="miter" halign="4" size="86.7862,19.6103,mm" excludeFromExports="0" positionOnPage="115.576,27.7897,mm" visibility="1" background="true" valign="128" frame="false" id="" blendMode="0" marginX="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="206" alpha="255" green="0" red="6"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1851,11 +1851,11 @@
           <customproperties/>
         </LayoutObject>
         <LabelFont description="DejaVu Sans,25,-1,5,75,1,0,0,0,0" style=""/>
-        <FontColor blue="255" red="255" alpha="255" green="255"/>
+        <FontColor blue="255" alpha="255" green="255" red="255"/>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="4" positionLock="false" filter_by_map="0" templateUuid="{31c713a2-4121-40af-a102-babc6f348434}" blendMode="0" size="135.709,80.714,mm" linked_map="{4c43d5ef-1ae5-40a5-a059-4005b73b6d94}" groupUuid="" filter_by_atlas="0" frame="false" positionOnPage="10.1259,112.452,mm" uuid="{31c713a2-4121-40af-a102-babc6f348434}" visibility="1" id="" type="76987" excludeFromExports="0" background="true" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" position="10.1259,112.452,mm">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="10.1259,112.452,mm" type="76987" opacity="1" groupUuid="" uuid="{31c713a2-4121-40af-a102-babc6f348434}" linked_map="{4c43d5ef-1ae5-40a5-a059-4005b73b6d94}" positionLock="true" zValue="4" referencePoint="0" templateUuid="{31c713a2-4121-40af-a102-babc6f348434}" frameJoinStyle="miter" size="135.709,80.714,mm" excludeFromExports="0" positionOnPage="10.1259,112.452,mm" visibility="1" filter_by_atlas="0" background="true" frame="false" id="" filter_by_map="0" blendMode="0" outlineWidthM="0.3,mm">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1952,9 +1952,9 @@
           <Option type="QString" value="COVID19_PER_d179c159_4f48_472c_aef1_c22b01da51e5" name="source_layer_id"/>
         </Option>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="3" positionLock="false" followPreset="true" templateUuid="{4c43d5ef-1ae5-40a5-a059-4005b73b6d94}" blendMode="0" size="88.8724,94.1517,mm" groupUuid="" frame="false" positionOnPage="208.141,13.3414,mm" mapRotation="0" keepLayerSet="false" uuid="{4c43d5ef-1ae5-40a5-a059-4005b73b6d94}" visibility="1" id="" type="65639" mapFlags="0" excludeFromExports="0" background="true" labelMargin="0,mm" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" followPresetName="REGION" drawCanvasItems="true" position="208.141,13.3414,mm">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="208.141,13.3414,mm" keepLayerSet="false" drawCanvasItems="true" type="65639" opacity="1" labelMargin="0,mm" followPresetName="REGION" mapRotation="0" groupUuid="" uuid="{4c43d5ef-1ae5-40a5-a059-4005b73b6d94}" positionLock="false" zValue="3" followPreset="true" referencePoint="0" templateUuid="{4c43d5ef-1ae5-40a5-a059-4005b73b6d94}" frameJoinStyle="miter" size="88.8724,94.1517,mm" excludeFromExports="0" positionOnPage="208.141,13.3414,mm" visibility="1" background="true" frame="false" id="" blendMode="0" outlineWidthM="0.3,mm" mapFlags="0">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1965,14 +1965,14 @@
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent ymin="-18.58625252089087354" xmin="-83.30280340380238613" xmax="-65.50481657002887914" ymax="0.26899260033489369"/>
+        <Extent ymax="0.26899260033489369" xmax="-65.50481657002887914" ymin="-18.58625252089087354" xmin="-83.30280340380238613"/>
         <LayerSet/>
-        <AtlasMap scalingMode="2" margin="0.01" atlasDriven="0"/>
+        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.01"/>
         <labelBlockingItems/>
       </LayoutItem>
-      <LayoutItem itemRotation="0" opacity="1" zValue="2" positionLock="false" followPreset="true" templateUuid="{33f3ec7b-4f8d-49bd-a7b7-50f890b7920e}" blendMode="0" size="88.8724,94.1517,mm" groupUuid="" frame="false" positionOnPage="0.0069,13.8483,mm" mapRotation="0" keepLayerSet="false" uuid="{33f3ec7b-4f8d-49bd-a7b7-50f890b7920e}" visibility="1" id="" type="65639" mapFlags="0" excludeFromExports="0" background="true" labelMargin="0,mm" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" followPresetName="COVID19" drawCanvasItems="true" position="0.0069,13.8483,mm">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="0.0069,13.8483,mm" keepLayerSet="false" drawCanvasItems="true" type="65639" opacity="1" labelMargin="0,mm" followPresetName="COVID19" mapRotation="0" groupUuid="" uuid="{33f3ec7b-4f8d-49bd-a7b7-50f890b7920e}" positionLock="false" zValue="2" followPreset="true" referencePoint="0" templateUuid="{33f3ec7b-4f8d-49bd-a7b7-50f890b7920e}" frameJoinStyle="miter" size="88.8724,94.1517,mm" excludeFromExports="0" positionOnPage="0.0069,13.8483,mm" visibility="1" background="true" frame="false" id="" blendMode="0" outlineWidthM="0.3,mm" mapFlags="0">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -1983,14 +1983,14 @@
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent ymin="-7.06677203507995166" xmin="-79.88592102540965811" xmax="-75.95855944859030728" ymax="-2.90611241091995787"/>
+        <Extent ymax="-6.3521125052755405" xmax="-70.38539031739998109" ymin="-12.35827894972437946" xmin="-76.05477677259995062"/>
         <LayerSet/>
-        <AtlasMap scalingMode="2" margin="0.04" atlasDriven="1"/>
+        <AtlasMap scalingMode="2" atlasDriven="1" margin="0.04"/>
         <labelBlockingItems/>
       </LayoutItem>
-      <LayoutItem shapeType="1" itemRotation="0" opacity="1" zValue="1" positionLock="false" templateUuid="{39e53930-76cc-4140-8aac-0310ed1f18c7}" blendMode="0" size="282.49,87.0384,mm" groupUuid="" frame="false" positionOnPage="7.16765,109.982,mm" uuid="{39e53930-76cc-4140-8aac-0310ed1f18c7}" visibility="1" id="" type="65643" cornerRadiusMeasure="0,mm" excludeFromExports="0" background="false" outlineWidthM="0.3,mm" referencePoint="0" frameJoinStyle="miter" position="7.16765,109.982,mm">
-        <FrameColor blue="0" red="0" alpha="255" green="0"/>
-        <BackgroundColor blue="255" red="255" alpha="255" green="255"/>
+      <LayoutItem itemRotation="0" position="7.16765,109.982,mm" type="65643" opacity="1" groupUuid="" uuid="{39e53930-76cc-4140-8aac-0310ed1f18c7}" positionLock="false" zValue="1" referencePoint="0" templateUuid="{39e53930-76cc-4140-8aac-0310ed1f18c7}" frameJoinStyle="miter" cornerRadiusMeasure="0,mm" size="282.49,87.0384,mm" excludeFromExports="0" positionOnPage="7.16765,109.982,mm" visibility="1" background="false" frame="false" id="" blendMode="0" outlineWidthM="0.3,mm" shapeType="1">
+        <FrameColor blue="0" alpha="255" green="0" red="0"/>
+        <BackgroundColor blue="255" alpha="255" green="255" red="255"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -2001,19 +2001,19 @@
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <symbol type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="">
-          <layer enabled="1" class="SimpleFill" pass="0" locked="0">
-            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="color" v="255,255,255,0"/>
-            <prop k="joinstyle" v="miter"/>
-            <prop k="offset" v="0,0"/>
-            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-            <prop k="offset_unit" v="MM"/>
-            <prop k="outline_color" v="0,0,0,255"/>
-            <prop k="outline_style" v="solid"/>
-            <prop k="outline_width" v="0.3"/>
-            <prop k="outline_width_unit" v="MM"/>
-            <prop k="style" v="solid"/>
+        <symbol type="fill" name="" alpha="1" force_rhr="0" clip_to_extent="1">
+          <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+            <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+            <prop v="255,255,255,0" k="color"/>
+            <prop v="miter" k="joinstyle"/>
+            <prop v="0,0" k="offset"/>
+            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+            <prop v="MM" k="offset_unit"/>
+            <prop v="0,0,0,255" k="outline_color"/>
+            <prop v="solid" k="outline_style"/>
+            <prop v="0.3" k="outline_width"/>
+            <prop v="MM" k="outline_width_unit"/>
+            <prop v="solid" k="style"/>
             <data_defined_properties>
               <Option type="Map">
                 <Option type="QString" value="" name="name"/>
@@ -2024,8 +2024,8 @@
           </layer>
         </symbol>
       </LayoutItem>
-      <LayoutMultiFrame cellMargin="1" contentFontColor="0,0,0,255" verticalGrid="1" filterFeatures="true" vectorLayer="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" vectorLayerName="Confirmed_COVID19PER" templateUuid="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" vectorLayerProvider="ogr" featureFilter=" &quot;NOMBDEP&quot; = @atlas_pagename" maxFeatures="30" wrapBehavior="0" headerHAlignment="0" vectorLayerSource="/home/antony/Documentos/GitHub/COVID19/COVID19/COVID19/COVID19PER/layers/Confirmed_COVID19PER.gpkg" showOnlyVisibleFeatures="0" uuid="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" wrapString="" showEmptyRows="0" source="0" relationId="" horizontalGrid="1" gridColor="0,0,0,255" emptyTableMode="0" type="65649" headerFontColor="0,0,0,255" showUniqueRowsOnly="0" showGrid="1" resizeMode="0" backgroundColor="255,255,255,255" emptyTableMessage="" filterToAtlasIntersection="0" headerMode="0" useConditionalStyling="1" gridStrokeWidth="0.05">
-        <childFrame templateUuid="{604001a6-40dc-45ae-a637-42a0196cbc25}" uuid="{604001a6-40dc-45ae-a637-42a0196cbc25}"/>
+      <LayoutMultiFrame maxFeatures="30" wrapBehavior="0" headerHAlignment="0" useConditionalStyling="1" type="65649" vectorLayerSource="/home/antony/Documentos/GitHub/COVID19/COVID19/COVID19/COVID19PER/layers/Confirmed_COVID19PER.gpkg" vectorLayerProvider="ogr" showOnlyVisibleFeatures="0" wrapString="" uuid="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" cellMargin="1" showEmptyRows="0" templateUuid="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" emptyTableMessage="" source="0" vectorLayer="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" filterFeatures="true" featureFilter=" &quot;NOMBDEP&quot; = @atlas_pagename" contentFontColor="0,0,0,255" filterToAtlasIntersection="0" headerMode="0" backgroundColor="255,255,255,255" verticalGrid="1" emptyTableMode="0" gridStrokeWidth="0.05" showGrid="1" relationId="" vectorLayerName="Confirmed_COVID19PER" horizontalGrid="1" gridColor="0,0,0,255" showUniqueRowsOnly="0" resizeMode="0" headerFontColor="0,0,0,255">
+        <childFrame uuid="{604001a6-40dc-45ae-a637-42a0196cbc25}" templateUuid="{604001a6-40dc-45ae-a637-42a0196cbc25}"/>
         <LayoutObject>
           <dataDefinedProperties>
             <Option type="Map">
@@ -2039,23 +2039,23 @@
         <headerFontProperties description="Fira Code,12,-1,5,75,0,0,0,0,0" style=""/>
         <contentFontProperties description="Fira Code,11,-1,5,57,0,0,0,0,0" style=""/>
         <displayColumns>
-          <column vAlignment="128" hAlignment="1" attribute="fid" sortOrder="0" width="0" heading="fid" sortByRank="0">
-            <backgroundColor blue="0" red="0" alpha="0" green="0"/>
+          <column sortByRank="0" vAlignment="128" sortOrder="0" hAlignment="1" attribute="fid" heading="fid" width="0">
+            <backgroundColor blue="0" alpha="0" green="0" red="0"/>
           </column>
-          <column vAlignment="128" hAlignment="1" attribute="NOMBDEP" sortOrder="0" width="0" heading="NOMBDEP" sortByRank="0">
-            <backgroundColor blue="0" red="0" alpha="0" green="0"/>
+          <column sortByRank="0" vAlignment="128" sortOrder="0" hAlignment="1" attribute="NOMBDEP" heading="NOMBDEP" width="0">
+            <backgroundColor blue="0" alpha="0" green="0" red="0"/>
           </column>
-          <column vAlignment="128" hAlignment="1" attribute="AREA_KM²" sortOrder="0" width="0" heading="AREA_KM²" sortByRank="0">
-            <backgroundColor blue="0" red="0" alpha="0" green="0"/>
+          <column sortByRank="0" vAlignment="128" sortOrder="0" hAlignment="1" attribute="AREA_KM²" heading="AREA_KM²" width="0">
+            <backgroundColor blue="0" alpha="0" green="0" red="0"/>
           </column>
-          <column vAlignment="128" hAlignment="1" attribute="FEC_ACT" sortOrder="0" width="0" heading="FEC_ACT" sortByRank="0">
-            <backgroundColor blue="0" red="0" alpha="0" green="0"/>
+          <column sortByRank="0" vAlignment="128" sortOrder="0" hAlignment="1" attribute="FEC_ACT" heading="FEC_ACT" width="0">
+            <backgroundColor blue="0" alpha="0" green="0" red="0"/>
           </column>
-          <column vAlignment="128" hAlignment="1" attribute="REGION" sortOrder="0" width="0" heading="REGION" sortByRank="0">
-            <backgroundColor blue="0" red="0" alpha="0" green="0"/>
+          <column sortByRank="0" vAlignment="128" sortOrder="0" hAlignment="1" attribute="REGION" heading="REGION" width="0">
+            <backgroundColor blue="0" alpha="0" green="0" red="0"/>
           </column>
-          <column vAlignment="128" hAlignment="1" attribute="CONFIRMED" sortOrder="0" width="0" heading="Casos confirmados" sortByRank="0">
-            <backgroundColor blue="0" red="0" alpha="0" green="0"/>
+          <column sortByRank="0" vAlignment="128" sortOrder="0" hAlignment="1" attribute="CONFIRMED" heading="Casos confirmados" width="0">
+            <backgroundColor blue="0" alpha="0" green="0" red="0"/>
           </column>
         </displayColumns>
         <cellStyles>
@@ -2071,15 +2071,15 @@
         </cellStyles>
       </LayoutMultiFrame>
       <customproperties>
-        <property key="atlasRasterFormat" value="png"/>
-        <property key="imageAntialias" value="true"/>
-        <property key="imageCropMarginBottom" value="0"/>
-        <property key="imageCropMarginLeft" value="0"/>
-        <property key="imageCropMarginRight" value="0"/>
-        <property key="imageCropMarginTop" value="0"/>
-        <property key="imageCropToContents" value="false"/>
+        <property value="png" key="atlasRasterFormat"/>
+        <property value="true" key="imageAntialias"/>
+        <property value="0" key="imageCropMarginBottom"/>
+        <property value="0" key="imageCropMarginLeft"/>
+        <property value="0" key="imageCropMarginRight"/>
+        <property value="0" key="imageCropMarginTop"/>
+        <property value="false" key="imageCropToContents"/>
       </customproperties>
-      <Atlas coverageLayer="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" coverageLayerProvider="ogr" sortFeatures="1" enabled="1" sortAscending="1" coverageLayerName="Confirmed_COVID19PER" sortKey="NOMBDEP" filterFeatures="0" hideCoverage="0" pageNameExpression="&quot;NOMBDEP&quot;" coverageLayerSource="/home/antony/Documentos/GitHub/COVID19/COVID19/COVID19/COVID19PER/layers/Confirmed_COVID19PER.gpkg" filenamePattern="'output_'||@atlas_featurenumber"/>
+      <Atlas sortFeatures="1" filterFeatures="0" enabled="1" filenamePattern="'output_'||@atlas_featurenumber" coverageLayerName="Confirmed_COVID19PER" pageNameExpression="&quot;NOMBDEP&quot;" coverageLayerProvider="ogr" coverageLayer="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" sortAscending="1" coverageLayerSource="/home/antony/Documentos/GitHub/COVID19/COVID19/COVID19/COVID19PER/layers/Confirmed_COVID19PER.gpkg" sortKey="NOMBDEP" hideCoverage="0"/>
     </Layout>
   </Layouts>
   <Bookmarks/>
