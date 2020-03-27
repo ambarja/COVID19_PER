@@ -20,7 +20,7 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer source="./layers/COVID19_PER.csv" name="COVID19_PER" providerKey="ogr" expanded="1" id="COVID19_PER_c9ca4fca_8d4a_4011_9d5f_f730e20608e2" checked="Qt::Checked">
+    <layer-tree-layer source="./layers/COVID19_PER.csv" name="COVID19_PER" providerKey="ogr" expanded="1" id="COVID19_PER_d9ab7aa0_0da1_4cc8_9bc3_4a8d3a7f21c0" checked="Qt::Checked">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer source="./layers/Confirmed_COVID19PER.gpkg" name="Confirmed_COVID19PER" providerKey="ogr" expanded="1" id="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b" checked="Qt::Unchecked">
@@ -42,7 +42,7 @@
       <item>Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b</item>
       <item>Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2</item>
       <item>Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059</item>
-      <item>COVID19_PER_c9ca4fca_8d4a_4011_9d5f_f730e20608e2</item>
+      <item>COVID19_PER_d9ab7aa0_0da1_4cc8_9bc3_4a8d3a7f21c0</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings unit="1" mode="2" enabled="0" tolerance="12" intersection-snapping="0" type="1">
@@ -156,7 +156,7 @@
   <legend updateDrawingOrder="true">
     <legendlayer drawingOrder="-1" name="COVID19_PER" open="true" showFeatureCount="0" checked="Qt::Checked">
       <filegroup hidden="false" open="true">
-        <legendlayerfile visible="1" isInOverview="0" layerid="COVID19_PER_c9ca4fca_8d4a_4011_9d5f_f730e20608e2"/>
+        <legendlayerfile visible="1" isInOverview="0" layerid="COVID19_PER_d9ab7aa0_0da1_4cc8_9bc3_4a8d3a7f21c0"/>
       </filegroup>
     </legendlayer>
     <legendlayer drawingOrder="-1" name="Confirmed_COVID19PER" open="true" showFeatureCount="0" checked="Qt::Unchecked">
@@ -179,7 +179,7 @@
   <mapViewDocks3D/>
   <projectlayers>
     <maplayer maxScale="0" autoRefreshTime="0" minScale="1e+08" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" wkbType="NoGeometry" styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" geometry="No geometry" readOnly="0">
-      <id>COVID19_PER_c9ca4fca_8d4a_4011_9d5f_f730e20608e2</id>
+      <id>COVID19_PER_d9ab7aa0_0da1_4cc8_9bc3_4a8d3a7f21c0</id>
       <datasource>./layers/COVID19_PER.csv</datasource>
       <keywordList>
         <value></value>
@@ -1392,7 +1392,7 @@
     <layer id="Confirmed_COVID19PER_749d47fd_4e16_40f1_a1e4_e5d1ebe5e21b"/>
     <layer id="Confirmed_COVID19PER_1f75d7cd_73e4_4ab3_baa7_017fd1d8b1e2"/>
     <layer id="Confirmed_COVID19PER_48110759_1373_455a_bee4_cc35ec60b059"/>
-    <layer id="COVID19_PER_c9ca4fca_8d4a_4011_9d5f_f730e20608e2"/>
+    <layer id="COVID19_PER_d9ab7aa0_0da1_4cc8_9bc3_4a8d3a7f21c0"/>
   </layerorder>
   <properties>
     <Gui>
@@ -1405,7 +1405,7 @@
       <SelectionColorRedPart type="int">255</SelectionColorRedPart>
     </Gui>
     <Layouts>
-      <lastLayoutExportDir type="QString">/home/antony/Documentos/GitHub/COVID19/img2</lastLayoutExportDir>
+      <lastLayoutExportDir type="QString">/home/antony/Documentos/GitHub/COVID19/img</lastLayoutExportDir>
     </Layouts>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
@@ -1872,7 +1872,7 @@
             <Option value="" name="z_name" type="QString"/>
           </Option>
           <Option value="scatter" name="plot_type" type="QString"/>
-          <Option value="COVID19_PER_c9ca4fca_8d4a_4011_9d5f_f730e20608e2" name="source_layer_id" type="QString"/>
+          <Option value="COVID19_PER_d9ab7aa0_0da1_4cc8_9bc3_4a8d3a7f21c0" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
       <LayoutItem positionOnPage="17.4057,124.369,mm" halign="8" id="" background="false" visibility="1" type="65641" marginY="0" blendMode="0" valign="32" itemRotation="0" templateUuid="{5c9a6282-cae1-4c5b-b25a-c2c904512ee7}" position="17.4057,124.369,mm" excludeFromExports="0" uuid="{5c9a6282-cae1-4c5b-b25a-c2c904512ee7}" referencePoint="0" outlineWidthM="0.3,mm" opacity="1" frameJoinStyle="miter" marginX="0" groupUuid="" frame="false" zValue="13" htmlState="0" size="52.3321,9.22621,mm" positionLock="false" labelText="CASOS DIARIOS&#xa;&#xa; ">
@@ -1891,7 +1891,7 @@
         <LabelFont description="DejaVu Sans,15,-1,5,75,1,0,0,0,0" style=""/>
         <FontColor green="0" blue="0" red="0" alpha="255"/>
       </LayoutItem>
-      <LayoutItem sectionHeight="14.6639" positionOnPage="86.3144,88.3362,mm" sectionY="0" id="" background="false" visibility="1" type="65647" blendMode="0" itemRotation="0" templateUuid="{604001a6-40dc-45ae-a637-42a0196cbc25}" sectionX="0" position="86.3144,88.3362,mm" excludeFromExports="0" multiFrameTemplateUuid="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" uuid="{604001a6-40dc-45ae-a637-42a0196cbc25}" referencePoint="0" hidePageIfEmpty="0" hideBackgroundIfEmpty="0" outlineWidthM="0.3,mm" opacity="1" frameJoinStyle="miter" groupUuid="" frame="false" zValue="12" size="140.091,14.6639,mm" multiFrame="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" positionLock="false" sectionWidth="140.091">
+      <LayoutItem sectionHeight="14.6639" positionOnPage="86.3144,89.3362,mm" sectionY="0" id="" background="false" visibility="1" type="65647" blendMode="0" itemRotation="0" templateUuid="{604001a6-40dc-45ae-a637-42a0196cbc25}" sectionX="0" position="86.3144,89.3362,mm" excludeFromExports="0" multiFrameTemplateUuid="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" uuid="{604001a6-40dc-45ae-a637-42a0196cbc25}" referencePoint="0" hidePageIfEmpty="0" hideBackgroundIfEmpty="0" outlineWidthM="0.3,mm" opacity="1" frameJoinStyle="miter" groupUuid="" frame="false" zValue="12" size="139.911,14.6639,mm" multiFrame="{6bc29e6a-dbb4-479f-ab4c-82d094b15299}" positionLock="false" sectionWidth="139.911">
         <FrameColor green="0" blue="0" red="0" alpha="255"/>
         <BackgroundColor green="255" blue="255" red="255" alpha="255"/>
         <LayoutObject>
@@ -1971,7 +1971,7 @@
           </layer>
         </symbol>
       </LayoutItem>
-      <LayoutItem positionOnPage="74.2259,10.3414,mm" halign="4" id="" background="false" visibility="1" type="65641" marginY="0" blendMode="0" valign="128" itemRotation="0" templateUuid="{17e9611a-1c9a-4fce-b6dc-bd156b010597}" position="74.2259,10.3414,mm" excludeFromExports="0" uuid="{17e9611a-1c9a-4fce-b6dc-bd156b010597}" referencePoint="0" outlineWidthM="0.3,mm" opacity="1" frameJoinStyle="miter" marginX="0" groupUuid="" frame="false" zValue="8" htmlState="0" size="169.699,10.031,mm" positionLock="false" labelText="Situación actual al 24-03-2020 a las 0:00 Hrs">
+      <LayoutItem positionOnPage="74.2259,10.3414,mm" halign="4" id="" background="false" visibility="1" type="65641" marginY="0" blendMode="0" valign="128" itemRotation="0" templateUuid="{17e9611a-1c9a-4fce-b6dc-bd156b010597}" position="74.2259,10.3414,mm" excludeFromExports="0" uuid="{17e9611a-1c9a-4fce-b6dc-bd156b010597}" referencePoint="0" outlineWidthM="0.3,mm" opacity="1" frameJoinStyle="miter" marginX="0" groupUuid="" frame="false" zValue="8" htmlState="0" size="169.699,10.031,mm" positionLock="false" labelText="Situación actual al 26-03-2020 a las 0:00 Hrs">
         <FrameColor green="0" blue="0" red="0" alpha="255"/>
         <BackgroundColor green="255" blue="255" red="255" alpha="255"/>
         <LayoutObject>
@@ -2115,7 +2115,7 @@
             <Option value="" name="z_name" type="QString"/>
           </Option>
           <Option value="scatter" name="plot_type" type="QString"/>
-          <Option value="COVID19_PER_c9ca4fca_8d4a_4011_9d5f_f730e20608e2" name="source_layer_id" type="QString"/>
+          <Option value="COVID19_PER_d9ab7aa0_0da1_4cc8_9bc3_4a8d3a7f21c0" name="source_layer_id" type="QString"/>
         </Option>
       </LayoutItem>
       <LayoutItem mapRotation="0" positionOnPage="208.141,13.3414,mm" id="" drawCanvasItems="true" background="true" visibility="1" type="65639" blendMode="0" itemRotation="0" keepLayerSet="false" templateUuid="{4c43d5ef-1ae5-40a5-a059-4005b73b6d94}" labelMargin="0,mm" mapFlags="0" position="208.141,13.3414,mm" excludeFromExports="0" followPreset="true" uuid="{4c43d5ef-1ae5-40a5-a059-4005b73b6d94}" referencePoint="0" outlineWidthM="0.3,mm" opacity="1" frameJoinStyle="miter" groupUuid="" frame="false" zValue="4" size="88.8724,94.1517,mm" positionLock="false" followPresetName="REGION">
@@ -2149,7 +2149,7 @@
           </dataDefinedProperties>
           <customproperties/>
         </LayoutObject>
-        <Extent ymin="-14.99625435204334067" ymax="-13.01719098595660107" xmax="-72.01527824945993927" xmin="-73.88337084153998546"/>
+        <Extent ymin="-12.35827894972437946" ymax="-6.3521125052755405" xmax="-70.38539031739998109" xmin="-76.05477677259995062"/>
         <LayerSet/>
         <AtlasMap margin="0.04" scalingMode="2" atlasDriven="1"/>
         <labelBlockingItems/>
