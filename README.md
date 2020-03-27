@@ -13,7 +13,7 @@ Vector de referencia : layer `Confirmed_COVID19PER`
 
 **Gif animación:**
 
-![](./Img/qgif_26-03-2020.gif)
+![](./Img/qgif_27-03-2020.gif)
 
 ## Referencias utilizadas:
 - **QGIS** : <https://qgis.org/it/site/>
