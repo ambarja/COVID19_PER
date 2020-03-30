@@ -11,11 +11,11 @@ Este presente proyecto tiene cómo finalidad tratar de coloborar con la difusió
 ## Atlas
 Vector de referencia : layer `Confirmed_COVID19PER`
 
-![](./Img/atlas.png)
+![](./Img/Icons/atlas.png)
 
 **Gif animación:**
 
-![](./Img/qgif_29-03-2020.gif)
+![](./Img/Gif/qgif_29-03-2020.gif)
 
 ## Referencias utilizadas:
 - **QGIS** : <https://qgis.org/it/site/>
@@ -24,7 +24,7 @@ Vector de referencia : layer `Confirmed_COVID19PER`
 - **Salvatore Fiandaca (pigreco)**: <https://github.com/pigreco/COVID-19_ITA>
 - **Jesus M. Castagnetto(jmcastagnetto)**: <https://github.com/jmcastagnetto/covid-19-peru-data>
 
-![](./Img/istat88x31.png)Todos los datos producidos en el presente proyecto se publican bajo [licencia Creative Commons (CC BY 3.0 IT)](https://creativecommons.org/share-your-work/): Es posible reproducir, distribuir, transmitir y adaptar libremente datos,  también con fines comerciales, siempre que se cite la **fuente**.
+![](./Img/Icons/istat88x31.png)Todos los datos producidos en el presente proyecto se publican bajo [licencia Creative Commons (CC BY 3.0 IT)](https://creativecommons.org/share-your-work/): Es posible reproducir, distribuir, transmitir y adaptar libremente datos,  también con fines comerciales, siempre que se cite la **fuente**.
 
 
 
