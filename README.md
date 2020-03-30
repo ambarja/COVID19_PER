@@ -1,4 +1,4 @@
-<img alt="Guatemala FbF" src="https://github.com/barja8/COVID19_PER/blob/master/Img/coronavirus_icon.svg" align="right" width = 12%/>
+<img alt="Guatemala FbF" src="https://github.com/barja8/COVID19_PER/blob/master/Img/coronavirus_icon.svg" align="right" width = 10%/>
 
 # COVID19PER :peru:
 Este presente proyecto tiene cómo finalidad tratar de coloborar con la difusión y el análisis espacial de los casos confirmados por la presencia del **COVID-19** en los respectivos departamentos del Perú, los datos que se emplearon para elaborar el presente mapa fueron recopilados de las respectivas autoridades encargadas de la presente temática, en este caso los datos fueron tomados de los diferentes reportes que fuerón publicados en **Twitter** por el ["Ministerio de Salud"](https://twitter.com/Minsa_Peru).
